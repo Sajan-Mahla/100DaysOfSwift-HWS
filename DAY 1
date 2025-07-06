@@ -1,0 +1,67 @@
+✅ Day 1 Swift Test (Hacking With Swift - 100 Days)
+
+🧠 Topic: Variables, Constants, Strings, Type Inference
+
+-------------------------------
+Questions & My Answers:
+-------------------------------
+
+1. ❓ How do you declare a constant named `city` with the value `"Lahore"`?
+
+✅ Answer:
+let city = "Lahore"
+
+
+2. ❓ What’s the difference between `let` and `var`?
+
+✅ Answer:
+`let` creates constants that cannot be changed.  
+`var` creates variables that can be changed later.
+
+
+3. ❓ What is type inference in Swift?
+
+✅ Answer:
+Swift automatically detects the type based on the value assigned.  
+Example: `let score = 90` — Swift treats `score` as an `Int`.
+
+
+4. ❓ Fix the error:
+var name = "Taffy"  
+name = 23
+
+✅ Answer:
+You can't assign an `Int` to a `String` variable.  
+Fix:
+var name = "Taffy"  
+name = "Sajan"
+
+
+5. ❓ What will this print?
+let name = "Taffy"  
+let message = "Welcome, \(name)!"  
+print(message)
+
+✅ Answer:
+Welcome, Taffy!
+
+
+6. ❓ Is this valid in Swift? Why or why not?
+let age: Int = "Twenty"
+
+✅ Answer:
+❌ Invalid — "Twenty" is a `String`, not an `Int`.  
+Fix: `let age: String = "Twenty"`
+
+
+7. ❓ Write code to store your name and favorite fruit, then print:  
+"My name is ___ and I love ___."
+
+✅ Answer:
+let name = "Taffy"  
+let fruit = "Mango"  
+print("My name is \(name) and I love \(fruit).")
+
+-------------------------------
+🔥 End of Day 1 Test
+-------------------------------
