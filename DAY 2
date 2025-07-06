@@ -1,0 +1,71 @@
+✅ Day 2 Swift Test (Hacking With Swift - 100 Days)
+
+🧠 Topic: Booleans, If/Else, Type Annotation, String Interpolation
+
+-------------------------------
+Questions & My Answers:
+-------------------------------
+
+1. ❓ What will this print?
+let isStudent = true  
+print(isStudent)
+
+✅ Answer:
+true
+
+
+2. ❓ What keyword do you use for a conditional check?
+
+✅ Answer:
+if / else (Boolean logic)
+
+
+3. ❓ Fix the error:
+let name: String = 42
+
+✅ Answer:
+let name: String = "Sajan"  
+OR  
+let name: Int = 42
+
+
+4. ❓ What is the output?
+let age = 17  
+if age >= 18 {
+    print("Adult")
+} else {
+    print("Minor")
+}
+
+✅ Answer:
+Minor
+
+
+5. ❓ Fill in the blanks:
+let name = "Taffy"  
+let age = 20  
+print("My name is _____ and I'm _____ years old.")
+
+✅ Answer:
+print("My name is \(name) and I'm \(age) years old.")
+
+
+6. ❓ True or False: You must always declare type using `: Type`.
+
+✅ Answer:
+False. Type annotation is optional when Swift can infer it.
+
+
+7. ❓ Check if `canVote = true`, then print "Go vote!".
+
+✅ Answer:
+var canVote = true  
+if canVote == true {  
+    print("Go vote!")  
+} else {  
+    print("Can't vote")  
+}
+
+-------------------------------
+🔥 End of Day 2 Test
+-------------------------------
