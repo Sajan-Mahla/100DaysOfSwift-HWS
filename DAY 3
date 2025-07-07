@@ -1,0 +1,68 @@
+✅ Day 3 Swift Test (Hacking With Swift - 100 Days)
+
+🧠 Topic: Arrays, Sets, Dictionaries, Enums
+
+-------------------------------
+Questions & My Answers:
+-------------------------------
+1. ❓ What’s the difference between an Array and a Set in Swift?
+
+✅ Answer:
+Arrays and Sets are similar, but differ in 2 main ways:
+
+Set doesn't allow duplicate values, while Array does.
+Array maintains order of items, Set does not.
+🔸 Set Example:
+
+var sam = Set<String>()
+sam.insert("Harsimran")
+sam.insert("Mahla")
+print(sam)
+🔸 Array Example:
+
+var sajan = ["sam", "mahla", "saaa"]
+sajan.append("Harsimran")
+print(sajan)
+2. ❓ How do you add a new key-value pair to a Dictionary?
+
+✅ Answer:
+You create or update dictionary keys like this:
+
+var employee = [String: String]()
+employee["name"] = "sajan"
+employee["gen"] = "male"
+Alternatively (initialization style):
+
+let employee1 = ["name" : "sajan",  "gen": "male"]
+3. ❓ What is an enum and when would you use one?
+
+✅ Answer:
+An enum (enumeration) is used to group related values. Example: days of the week.
+
+enum weekDays {
+    case Monday
+    case Tuesday
+    case Wednesday
+    case Thursday
+    case Friday
+}
+print(weekDays.Friday)
+4. ❓ What does the .insert() method do in a Set?
+
+✅ Answer:
+It adds a new value into the Set (unordered, no duplicates).
+
+var sam = Set<String>()
+sam.insert("Harsimran")
+sam.insert("Mahla")
+print(sam)
+5. ❓ What happens if you try to access a value from a dictionary using a key that doesn’t exist?
+
+✅ Answer:
+Swift returns nil, but you can provide a default like this:
+
+let employee1 = ["name" : "sajan", "gen": "male"]
+print(employee1["age", default: "unknown"])
+-------------------------------
+🔥 End of Day 3 Test – Score: 48.5 / 50
+-------------------------------
