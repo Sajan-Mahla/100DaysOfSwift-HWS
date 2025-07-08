@@ -1,0 +1,55 @@
+✅ Question 1: Unique Fruits
+Q:
+You have the array:
+
+let fruits = ["apple", "banana", "apple", "mango", "banana"]
+How many unique fruits are there? And how would you get them in Swift?
+
+👑 Sajan's Answer:
+
+let fruits = ["apple", "banana", "apple", "mango", "banana"]
+print(fruits.count)
+// there are 3 uniques fruits as we can see in this array but for array with complex values well use unique function
+✅ Question 2: Dictionary Value Access
+Q:
+Given:
+
+let employee = ["name": "Sajan", "role": "iOS Dev", "salary": "50LPA"]
+How would you safely get the employee’s role and print it?
+
+👑 Sajan's Answer:
+
+let employee = ["name": "Sajan", "role": "iOS Dev", "salary": "50LPA"]
+print(employee.values)
+✅ Question 3: Enum + if-else Weather Logic
+Q:
+Given the enum:
+
+enum Weather {
+    case sunny, rainy, cloudy
+}
+Write an if-else based program that prints a message based on today's weather.
+
+👑 Sajan's Answer:
+
+enum Weather {
+    case sunny, rainy, cloudy
+}
+var sunny = Weather.sunny
+var rainy = Weather.rainy
+var cloudy  = Weather.cloudy
+
+var todaysWeather = rainy
+
+if todaysWeather == sunny{
+    print("It’s a bright day!")
+}
+else if todaysWeather == rainy{
+    print("Don’t forget your umbrella.")
+}
+else if todaysWeather == cloudy{
+    print("Looks gloomy today.")
+}
+else{
+    print("I love  Sleeping")
+}
