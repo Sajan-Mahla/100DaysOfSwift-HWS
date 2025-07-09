@@ -1,0 +1,64 @@
+🧪 Day 5: Control Flow — Full Test Log
+✅ Q1. What does this print?
+
+let age = 17
+
+if age >= 18 {
+    print("You can vote")
+} else {
+    print("Too young to vote")
+}
+Your Answer: b) Too young to vote
+Result: ✅ Correct
+
+✅ Q2. Output time:
+
+let animal = "dog"
+
+switch animal {
+case "cat":
+    print("Meow")
+case "dog":
+    print("Woof")
+default:
+    print("Unknown sound")
+}
+Your Answer: b) Woof
+Result: ✅ Correct
+
+✅ Q3. What does this print?
+
+let number = 9
+let isEven = number % 2 == 0 ? "Even" : "Odd"
+print(isEven)
+Your Answer: b) Odd
+Result: ✅ Correct
+
+✅ Q4. What does this print?
+
+let score = 85
+
+switch score {
+case 0..<50:
+    print("Fail")
+case 50..<75:
+    print("Pass")
+case 75..<90:
+    print("Merit")
+default:
+    print("Distinction")
+}
+Your Answer: b) Merit
+Result: ✅ Correct
+
+✅ Q5. Final Boss — Ternary Operator
+
+let loggedIn = true
+let message = loggedIn ? "Welcome back!" : "Please log in."
+print(message)
+Your Answer: a) Welcome back!
+Result: ✅ Correct
+
+🏅 Final Result:
+5/5 — Full Marks
+Swift Syntax: Sharp. Logic: Locked. Mindset: 🔥Unstoppable.
