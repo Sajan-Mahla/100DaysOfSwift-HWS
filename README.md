@@ -60,4 +60,69 @@ If you’re reading this and hustling too — keep going.
 
 
 
+
+
+
+
+
+
+
+
+CHECKPOINT CODES 
+Sat-5-july-2025
+Q1 Your goal is to write a Swift playground that:
+
+Creates a constant holding any temperature in Celsius.
+Converts it to Fahrenheit by multiplying by 9, dividing by 5, then adding 32.
+Prints the result for the user, showing both the Celsius and Fahrenheit values.
+
+
+
+MY ANSWER: let Celsius = 30
+var Fahrenheit = (Celsius * 9/5) + 32
+print("it \(Celsius)° Celsius and \(Fahrenheit)° Fahrenheit")
+____________________________________________________________________________
+tue-8-july-2025
+Q2 Create an array of strings, then write some code that prints the number of items in the array and also the number of unique items in the array.
+
+
+
+
+
+MY ANSWER: var arr: Array = ["Sajan", "Mahla", "Harsimranjeet", "Sam","Sajan", "Mahla", "Harsimranjeet", "Sam",]
+print(arr.count)
+var uS = Set(arr)
+print(uS)
+
+here uS mean UniquesSet
+
+_____________________________________________________________________________
+thu-10-July-2025
+Q3 The problem is called fizz buzz, and has been used in job interviews, university entrance tests, and more for as long as I can remember. Your goal is to loop from 1 through 100, and for each number:
+
+If it’s a multiple of 3, print “Fizz”
+If it’s a multiple of 5, print “Buzz”
+If it’s a multiple of 3 and 5, print “FizzBuzz”
+Otherwise, just print the number.
+
+
+My ANSWER: for i in 1..<100{
+    
+    if i.isMultiple(of:3) && i.isMultiple(of: 5){
+        print("\(i) is FizzBuzz")
+    }
+    else if i.isMultiple(of: 3){
+        print("\(i) is Fizz")
+    }
+    else if i.isMultiple(of: 5){
+        print("\(i) is Buzz")
+    }
+    
+    else{
+        print(i)
+    }
+    }
+_____________________________________________________________________________
+    
+
  
