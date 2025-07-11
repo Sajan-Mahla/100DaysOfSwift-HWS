@@ -110,7 +110,7 @@ Otherwise, just print the number.
 
 
 My ANSWER: for i in 1..<100{
-    
+    for i in 1..<100 {
     if i.isMultiple(of:3) && i.isMultiple(of: 5){
         print("\(i) is FizzBuzz")
     }
