@@ -44,20 +44,22 @@ If you’re reading this and hustling too — keep going.
 
 
  
-🔧 Extension Skills Tracker – Bonus Modules Alongside 100 Days
-| #   | Skill / Topic                        | Status        | Notes / Purpose                                    |
-|-----|--------------------------------------|---------------|----------------------------------------------------|
-| 1   | Xcode Mastery                        | ✅ Completed  | Installed, configured, breakpoints, build system  |
-| 2   | Git & GitHub Workflow                | ✅ Completed  | Daily commits, clean logs, Markdown usage         |
-| 3   | Interview Preparation (Tech + HR)    | 🔄 Ongoing    | Daily Q&A, real-case logic + Apple-style answers  |
-| 4   | UIKit Crash Course                   | ✅ Completed  | Watched + Practiced setup + basic layout          |
-| 5   | Asynchronous Programming (async/await, DispatchQueue) | ⏳ Pending     | Will begin post-Day 10 (app building starts)     |
-| 6   | AutoLayout & Interface Builder (Storyboard mastery) | ⏳ Pending     | UIKit deep layout + constraints for custom UI     |
-| 7   | App Store + Deployment Basics        | ⏳ Pending     | Learn RouteNote, TestFlight, App Store Connect    |
-| 8   | GitHub Readme + Branding             | ✅ Completed  | Clean Readme, branding, visual commitment         |
-| 9   | Apple Careers / Office Research      | ✅ Completed  | Researched Ottawa, Munich Apple offices           |
-| 10  | Weekly App Challenge (Sunday builds) | 🔒 Starts Soon | One app every Sunday – scaling from simple to pro |
+### 🔧 Extension Skills Tracker – Bonus Modules Alongside 100 Days
 
+| #   | Skill / Topic                                              | Status        | Notes / Purpose                                                                 |
+|-----|-------------------------------------------------------------|---------------|----------------------------------------------------------------------------------|
+| 1   | Xcode Mastery                                               | ✅ Completed  | Installed, configured, breakpoints, build system                                |
+| 2   | Git & GitHub Workflow                                       | ✅ Completed  | Daily commits, clean logs, Markdown usage                                       |
+| 3   | Interview Preparation (Tech + HR)                           | 🟨 Ongoing    | Daily Q&A, real-case logic + Apple-style answers                                |
+| 4   | UIKit Crash Course                                          | ✅ Completed  | Watched + Practiced setup + basic layout                                        |
+| 5   | Asynchronous Programming (async/await, DispatchQueue)       | ⏳ Pending    | Will begin post-Day 10 (app building starts)                                    |
+| 6   | AutoLayout & Interface Builder (Storyboard mastery)         | ⏳ Pending    | UIKit deep layout + constraints for custom UI                                   |
+| 7   | App Store + Deployment Basics                               | ⏳ Pending    | Learn RouteNote, TestFlight, App Store Connect                                 |
+| 8   | GitHub Readme + Branding                                    | ✅ Completed  | Clean Readme, branding, visual commitment                                      |
+| 9   | Apple Careers / Office Research                             | ✅ Completed  | Researched Ottawa, Munich Apple offices                                        |
+| 10  | Weekly App Challenge (Sunday builds)                        | 🔒 Starts Soon | One app every Sunday – scaling from simple to pro                              |
+| 11  | **Soft Skills: Dev Communication & Tech Speak** 💬          | ✅ Completed  | Practiced Swift explanations, metaphors, interview-style answers 🔥             |
+| 12  | **Swift Extension Superpowers** 🧩                           | ✅ Completed  | Created extensions for String & Int, explained purpose + real-world use         |
 
 
 
