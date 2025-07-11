@@ -34,8 +34,8 @@ If you’re reading this and hustling too — keep going.
 | 4   | Sets, Dictionaries, Enums                       | ✅ Completed          |
 | 5   | `if` / `else`, `switch`, ternary operator       | ✅ Completed          |
 | 6   | Loops (`for`, `while`, `repeat-while`)          | ✅ Completed          |
-| 7   | Loop control (`break`, `continue`, loop labels) | ⏳ Pending            |
-| 8   | Functions (basic)                               | ⏳ Pending            |
+| 7   | Loop control (`break`, `continue`, loop labels) | ✅ Completed          |
+| 8   | Functions (basic)                               | ✅ Completed           |
 | 9   | Functions (parameters, return)                  | ⏳ Pending            |
 | …   | …                                               | 🔒 Will Unlock Daily |
 
