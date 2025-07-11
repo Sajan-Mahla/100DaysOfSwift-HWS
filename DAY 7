@@ -1,0 +1,76 @@
+# 🧠 Day 7 – Functions Test (Hacking with Swift)
+
+### ✅ Topics Covered:
+- Function parameters and return values
+- Internal & external names
+- Default values
+- Variadic functions
+- inout keyword
+- Error spotting
+
+---
+
+## 🔹 LEVEL 1: MCQs
+
+**Q1. What will this code print?**
+```swift
+func greet(_ name: String) {
+    print("Hello, \(name)!")
+}
+greet("Sajan")
+Answer: ✅ Hello, Sajan!
+
+Q2. What’s the output?
+
+func add(a: Int, b: Int = 5) -> Int {
+    return a + b
+}
+print(add(a: 10))
+Answer: ✅ 15
+
+Q3. What does the inout keyword do?
+Answer: ✅ Allows a function to modify a variable passed to it
+
+🔹 LEVEL 2: Output-Based & Error Spotting
+
+Q4. What does this print?
+
+func square(of number: Int) -> Int {
+    return number * number
+}
+print(square(of: 4))
+Answer: ✅ 16
+
+Q5. Identify the mistake (if any):
+
+func greet(person name: String) {
+    print("Hello \(person)!")
+}
+greet(person: "Bro")
+Fix:
+Replace person with name inside the function:
+
+print("Hello \(name)!")
+🔹 LEVEL 3: Bonus – Variadic Function
+
+Q6. Create a function that takes multiple string messages and logs them with "Log:" prefix.
+
+func logMessages(_ messages: String...) {
+    for message in messages {
+        print("Log: \(message)")
+    }
+}
+
+// Example call:
+logMessages("App crashed", "Retrying", "Recovered")
+🏆 Result: 6/6 – 100%
+
+Swift functions are now under my command 💪
+Next up: [Insert what you’re learning next here]
+
+
+---
+
+Let me know if you want me to **convert it into PDF** or **auto-upload it** (if you give me repo name & file structure).  
+Else post it like a **legend with caption:**  
+> “Functions? I eat 'em for breakfast. 🍽️ Day 7 – DONE.” ✅
