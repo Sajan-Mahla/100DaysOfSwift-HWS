@@ -120,12 +120,64 @@ My ANSWER: for i in 1..<100{
     else if i.isMultiple(of: 5){
         print("\(i) is Buzz")
     }
-    
-    else{
-        print(i)
+    else { print(i)
+    }
     }
     }
 _____________________________________________________________________________
+Sat-12-july-2025
+Q3 The challenge is this: write a function that accepts an integer from 1 through 10,000, and returns the integer square root of that number. That sounds easy, but there are some catches:
+
+You can’t use Swift’s built-in sqrt() function or similar – you need to find the square root yourself.
+If the number is less than 1 or greater than 10,000 you should throw an “out of bounds” error.
+You should only consider integer square roots – don’t worry about the square root of 3 being 1.732, for example.
+If you can’t find the square root, throw a “no root” error.
+
+
+MY ANSWER: import UIKit
+
+
+
+
+// 1. Define possible errors
+enum RootError: Error, CustomStringConvertible {
+    case outOfBounds
+    case noRoot
     
+    var description: String {
+        switch self {
+        case .outOfBounds: return "🚫 Number must be between 1 and 10,000."
+        case .noRoot: return "❌ No integer square root found."
+        }
+    }
+}
+
+// 2. Function to calculate integer square root
+func integerSquareRoot(of number: Int) throws -> Int {
+    guard number >= 1 && number <= 10_000 else {
+        throw RootError.outOfBounds
+    }
+
+    for i in 1...number {
+        if i * i == number {
+            return i
+        } else if i * i > number {
+            break
+        }
+    }
+    
+    throw RootError.noRoot
+}
+
+// 3. Try calling it and handle errors
+do {
+    let result = try integerSquareRoot(of: 10000)
+    print("✅ Square root is \(result)")
+} catch let error as RootError {
+    print(error.description)
+}
+
+___________________________________________________________________________________
+   
 
  
