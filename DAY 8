@@ -1,0 +1,89 @@
+🧪 HWS – Day 8: Default Values & Throwing Functions
+
+Date: July 12, 2025
+Swift Warrior: Sajan Mahla 🍏
+Status: 4/5 Completed ✅
+
+✅ Q1. MCQ – Default Values
+
+Question:
+func greet(name: String = "Guest") {
+    print("Hello, \(name)!")
+}
+
+greet()
+Answer:
+✅ C. Hello, Guest!
+Reason: The default value "Guest" is used when no argument is passed.
+
+✅ Q2. MCQ – Throwing Functions
+
+Question:
+Which syntax is correct for declaring a throwing function?
+
+Answer:
+✅ C. func loadData() throws -> String
+Reason: Only this syntax matches Swift’s throws placement rules.
+
+🟡 Q3. Coding – Default Parameter Values
+
+Task:
+Create a calculateTip function with a default tipPercentage of 10.
+
+User Submission:
+func calculateTip(tipPercentage: Int = 10) {
+   let bill = 150
+   let tip = bill / 10
+   let total = tip + bill
+   print(total)
+}
+Feedback:
+❌ Hardcoded bill value (should be a parameter)
+❌ No return value
+✅ Used default parameter correctly
+Fixed Version:
+func calculateTip(total: Int, tipPercentage: Int = 10) -> Int {
+    return (total * tipPercentage) / 100
+}
+Score: 6.5 / 10
+
+✅ Q4. Coding – Throwing Function
+
+Task:
+Create a throwing divide function that:
+
+Accepts numerator and denominator
+Throws if denominator == 0
+Final Version:
+enum DivisionError: Error {
+    case divisionByZero
+}
+
+func divide(numerator: Int, denominator: Int) throws -> Int {
+    guard denominator != 0 else {
+        throw DivisionError.divisionByZero
+    }
+    return numerator / denominator
+}
+
+do {
+    let result = try divide(numerator: 10, denominator: 2)
+    print("✅ Result: \(result)")
+} catch {
+    print("❌ \(error)")
+}
+✅ Fully working. Error type, throwing function, and do-catch all implemented correctly.
+
+⏳ Q5. Status: Pending
+
+Function: fetchUser(username: String, timeout: Int = 5) throws -> String
+You’ll write this next!
+
+🏁 Summary:
+
+Question	Status	Notes
+Q1	✅	Perfect
+Q2	✅	Swift syntax king
+Q3	🟡	Concept clear, minor logic gaps
+Q4	✅	Nailed it like a dev
+Q5	⏳	Coming soon
