@@ -25,42 +25,42 @@ This is more than a repo — it’s my **proof of discipline**.
 If you’re reading this and hustling too — keep going.  
 **"We don’t do it in one day. We do it every day."**
 
-## 📆 Progress Tracker – Hacking With Swift (100 Days) (THIS WILL UPDATE EVERYDAY SO KEEP YOUR EYE THERE. STARTED FROM 3-7-25. GOING TO END WITH ME..)
-| Day | Topic Covered                                   | Status               |
-| --- | ----------------------------------------------- | -------------------- |
-| 1   | Variables, Constants, Strings                   | ✅ Completed          |
-| 2   | Ints, Doubles, Type Inference                   | ✅ Completed          |
-| 3   | Arrays, Sets, Dictionaries Intro                | ✅ Completed          |
-| 4   | Sets, Dictionaries, Enums                       | ✅ Completed          |
-| 5   | `if` / `else`, `switch`, ternary operator       | ✅ Completed          |
-| 6   | Loops (`for`, `while`, `repeat-while`)          | ✅ Completed          |
-| 7   | Loop control (`break`, `continue`, loop labels) | ✅ Completed          |
-| 8   | Functions (basic)                               | ✅ Completed           |
-| 9   | Functions (parameters, return)                  | ⏳ Pending            |
-| …   | …                                               | 🔒 Will Unlock Daily |
+📆 Progress Tracker – Hacking With Swift (100 Days)  
+**(THIS WILL UPDATE EVERYDAY SO KEEP YOUR EYE THERE. STARTED FROM 3-7-25. GOING TO END WITH ME..)**
+
+| Day | Topic Covered                                        | Status        |
+|-----|------------------------------------------------------|----------------|
+| 1   | Variables, Constants, Strings                        | ✅ Completed   |
+| 2   | Ints, Doubles, Type Inference                        | ✅ Completed   |
+| 3   | Arrays, Sets, Dictionaries Intro                     | ✅ Completed   |
+| 4   | Sets, Dictionaries, Enums                            | ✅ Completed   |
+| 5   | if / else, switch, ternary operator                  | ✅ Completed   |
+| 6   | Loops (for, while, repeat-while)                     | ✅ Completed   |
+| 7   | Loop control (break, continue, loop labels)          | ✅ Completed   |
+| 8   | Functions (basic) + Closures Intro                   | ✅ Completed   |
+| 9   | Functions (parameters, return)                       | ⏳ Pending     |
+| …   | …                                                    | …              |
 
 
 
 
 
  
-### 🔧 Extension Skills Tracker – Bonus Modules Alongside 100 Days
+🚀 Extension Skill Tracker – Leveling Beyond Swift  
+**(One hour daily commitment outside HWS. Builds real dev superpowers.)**
 
-| #   | Skill / Topic                                              | Status        | Notes / Purpose                                                                 |
-|-----|-------------------------------------------------------------|---------------|----------------------------------------------------------------------------------|
-| 1   | Xcode Mastery                                               | ✅ Completed  | Installed, configured, breakpoints, build system                                |
-| 2   | Git & GitHub Workflow                                       | ✅ Completed  | Daily commits, clean logs, Markdown usage                                       |
-| 3   | Interview Preparation (Tech + HR)                           | 🟨 Ongoing    | Daily Q&A, real-case logic + Apple-style answers                                |
-| 4   | UIKit Crash Course                                          | ✅ Completed  | Watched + Practiced setup + basic layout                                        |
-| 5   | Asynchronous Programming (async/await, DispatchQueue)       | ⏳ Pending    | Will begin post-Day 10 (app building starts)                                    |
-| 6   | AutoLayout & Interface Builder (Storyboard mastery)         | ⏳ Pending    | UIKit deep layout + constraints for custom UI                                   |
-| 7   | App Store + Deployment Basics                               | ⏳ Pending    | Learn RouteNote, TestFlight, App Store Connect                                 |
-| 8   | GitHub Readme + Branding                                    | ✅ Completed  | Clean Readme, branding, visual commitment                                      |
-| 9   | Apple Careers / Office Research                             | ✅ Completed  | Researched Ottawa, Munich Apple offices                                        |
-| 10  | Weekly App Challenge (Sunday builds)                        | 🔒 Starts Soon | One app every Sunday – scaling from simple to pro                              |
-| 11  | **Soft Skills: Dev Communication & Tech Speak** 💬          | ✅ Completed  | Practiced Swift explanations, metaphors, interview-style answers 🔥             |
-| 12  | **Swift Extension Superpowers** 🧩                           | ✅ Completed  | Created extensions for String & Int, explained purpose + real-world use         |
-
+| Skill Area           | Topics Covered                                  | Status        | Notes                        |
+|----------------------|--------------------------------------------------|----------------|-------------------------------|
+| 1. Async Engineering | DispatchQueue, async/await, URLSession           | 🟢 In Progress | On Day 5                      |
+| 2. UIKit             | Views, constraints, view controllers             | 🔜 Upcoming    | After Quote App v2            |
+| 3. Git + GitHub      | Commits, branches, README, issues                | ✅ Completed   | Actively used daily           |
+| 4. Xcode Debugging   | Breakpoints, logs, runtime analysis              | ✅ Completed   | Covered in UIKit crash course |
+| 5. App Architecture  | MVC, MVVM basics                                 | 🔜 Upcoming    | Start after UIKit             |
+| 6. Networking        | REST APIs, Codable, JSON decoding                | 🟢 In Progress | Quote App uses API            |
+| 7. Swift Packages    | Using and creating SwiftPM packages              | ⏳ Pending     | Needed for scaling projects   |
+| 8. Design Systems    | Apple HIG, light/dark mode, fonts, spacing       | ✅ Completed   | Used in Quote App             |
+| 9. Firebase Basics   | Auth, Firestore, real-time updates               | 🔜 Upcoming    | Planned for future apps       |
+| 10. App Store Prep   | Certificates, provisioning, TestFlight, upload   | ✅ Completed   | Watched video 07/09/2025      |
 
 
 
