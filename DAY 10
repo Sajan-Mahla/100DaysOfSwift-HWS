@@ -1,0 +1,69 @@
+# Hacking with Swift — Day 8  
+## ✨ Topic: Closures & Passing Functions
+
+---
+
+### ✅ Q1. What keyword do we use to define a closure in Swift?
+
+**Answer:**  
+We use curly braces `{}` to define a closure.  
+We store the closure using `let` or `var`.
+
+---
+
+### ✅ Q2. Write a basic closure that prints `"Swift is cool"` when called.
+
+```swift
+let firstclosure = {
+    print("Swift is cool")
+}
+
+firstclosure()
+✅ Q3. What is the type of this closure?
+let greet = { (name: String) -> String in
+    return "Hello, \(name)!"
+}
+Answer:
+(String) -> String
+
+✅ Q4. Rewrite this function to accept a closure instead of printing inside.
+Original:
+
+func downloadData() {
+    print("Download complete!")
+}
+Rewritten:
+
+func downloadData(completion: () -> Void) {
+    print("Downloading data...")
+    completion()
+}
+
+downloadData {
+    print("Download complete!")
+}
+✅ Q5. What's the shorthand syntax for this closure?
+Original:
+
+let numbers = [1, 2, 3]
+let doubled = numbers.map({ (num: Int) -> Int in
+    return num * 2
+})
+Shorthand:
+
+let doubled = numbers.map { $0 * 2 }
+✅ Q6. What will this print?
+func operate(on numbers: [Int], using method: (Int) -> Int) {
+    for number in numbers {
+        print(method(number))
+    }
+}
+
+operate(on: [2, 4]) { $0 * 3 }
+Output:
+
+6
+12
+🏁 Score: 5.5 / 6
+Closures are scary but this test was swiftly conquered 🚀
+
