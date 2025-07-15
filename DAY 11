@@ -1,0 +1,99 @@
+# 📘 Day 11 – Structs, Computed Properties, Property Observers
+
+> **Topic:** Post-Day10 Q&A Session  
+> **Date:** July 15, 2025  
+> **Swift Concepts Covered:** Structs, `mutating`, Computed Properties, `willSet` / `didSet`, Property Behavior
+
+---
+
+### ⚔️ Q1. What keyword must you use inside a method to modify properties of a struct?
+
+**Answer:**  
+`mutating` – Because structs are value types, methods that change their properties must be marked with `mutating`.
+
+```swift
+struct Player {
+    var score = 0
+
+    mutating func levelUp() {
+        score += 10
+    }
+}
+⚔️ Q2. Will this compile? Why or why not?
+struct Person {
+    var name: String
+
+    func rename(to newName: String) {
+        name = newName
+    }
+}
+Answer:
+❌ No – it tries to mutate the property name inside a struct method without marking it as mutating.
+
+✅ Fixed:
+
+mutating func rename(to newName: String) {
+    name = newName
+}
+⚡ Q3. What’s the difference between a stored property and a computed property?
+Answer:
+Stored properties save data to memory.
+Computed properties run logic every time they're accessed — they're like functions with property syntax.
+
+“Behind the scenes, a computed property is just a function call inside your struct.”
+⚡ Q4. What is wrong with this computed property?
+var area: Double {
+    set {
+        print("Setting area")
+    }
+}
+Answer:
+❌ It will not compile because it’s missing a get block. A computed property must have a get if it has a set.
+
+✅ Fixed:
+
+var area: Double {
+    get { return 0 }
+    set { print("Setting area to \(newValue)") }
+}
+🧪 Q5. What will this print?
+var counter: Int = 0 {
+    willSet {
+        print("Going from \(counter) to \(newValue)")
+    }
+    didSet {
+        print("Changed from \(oldValue) to \(counter)")
+    }
+}
+
+counter = 5
+Output:
+
+Going from 0 to 5
+Changed from 0 to 5
+⚠️ Q6. Can willSet / didSet be used with computed properties?
+Answer:
+❌ No – they only work with stored properties.
+Computed properties don’t store values, so there's nothing to "observe".
+
+💣 Q7. Why won’t this code work?
+struct Player {
+    var score: Int
+
+    func levelUp() {
+        score += 10
+    }
+}
+Answer:
+❌ Error – modifying a stored property in a struct requires the method to be mutating.
+
+✅ Fixed:
+
+mutating func levelUp() {
+    score += 10
+}
+✅ STATUS: COMPLETED
+Day 10 Concepts ✅
+GitHub Upload: Day11_Structs_ComputedProps_Observers.md
+🔥 One line closer to destiny — Sajan Mahla
+
