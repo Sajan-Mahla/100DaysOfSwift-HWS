@@ -211,4 +211,32 @@ for line in result {
 }
 
 ___________________________________________________________________________________
- 
+ Wed-16-7-2025
+ Q5. create a struct to store information about a car, including its model, number of seats, and current gear, then add a method to change gears up or down. Have a think about variables and access control: what data should be a variable rather than a constant, and what data should be exposed publicly? Should the gear-changing method validate its input somehow?
+
+ MyAnswer: struct CarModel {
+    enum Gear: Int {
+        case reverse = -1, neutral, first, second, third, fourth, fifth, sixth
+    }
+
+    let name: String
+    let model: String
+    let seats: Int
+    private(set) var currentGear: Gear = .neutral
+
+    mutating func shiftUp() {
+        if let next = Gear(rawValue: currentGear.rawValue + 1) {
+            currentGear = next
+        }
+    }
+
+    mutating func shiftDown() {
+        if let prev = Gear(rawValue: currentGear.rawValue - 1) {
+            currentGear = prev
+        }
+    }
+}
+var myCar = CarModel(name: "Tesla", model: "Model S", seats: 5)
+print(myCar.currentGear)   // neutral
+
+___________________________________________________________________________________
