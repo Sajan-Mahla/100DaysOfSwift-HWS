@@ -1,0 +1,45 @@
+// ✅ HWS Day 11 – Review: Access Control & Static Properties/Methods
+// Author: Sajan Mahla
+
+import Foundation
+
+// MARK: - Access Control Quiz
+
+/*
+ Q1: What keyword in Swift is used to make something only accessible inside the same file?
+ ✅ Answer: C) fileprivate
+
+ Q2: If you mark a property as 'private', who can access it?
+ ✅ Answer: C) Only code within the same class/struct
+*/
+
+// MARK: - Static Properties & Methods Quiz
+
+/*
+ Q3: What is a static property?
+ ✅ Answer: B) A property that belongs to a type, not to an instance
+
+ Q4: Can static methods access instance properties?
+ ✅ Answer: B) No
+
+ Q5: Complete the code to print "Tesla"
+*/
+
+struct Car {
+    static let brand = "Tesla"
+}
+
+print(Car.brand) // ✅ Correct: Car.brand accesses static property
+
+// MARK: - Summary
+
+/*
+ ▸ Access control lets you protect properties/methods based on scope:
+    - private      = same type only
+    - fileprivate  = same file
+    - internal     = (default) same module
+    - public/open  = outside modules (with some restrictions)
+
+ ▸ static means something belongs to the TYPE, not the INSTANCE.
+    You don’t need to create an object to access it.
+*/
