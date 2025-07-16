@@ -28,18 +28,23 @@ If you’re reading this and hustling too — keep going.
 📆 Progress Tracker – Hacking With Swift (100 Days)  
 **(THIS WILL UPDATE EVERYDAY SO KEEP YOUR EYE THERE. STARTED FROM 3-7-25. GOING TO END WITH ME..)**
 
-| Day | Topic Covered                                        | Status        |
-|-----|------------------------------------------------------|----------------|
-| 1   | Variables, Constants, Strings                        | ✅ Completed   |
-| 2   | Ints, Doubles, Type Inference                        | ✅ Completed   |
-| 3   | Arrays, Sets, Dictionaries Intro                     | ✅ Completed   |
-| 4   | Sets, Dictionaries, Enums                            | ✅ Completed   |
-| 5   | if / else, switch, ternary operator                  | ✅ Completed   |
-| 6   | Loops (for, while, repeat-while)                     | ✅ Completed   |
-| 7   | Loop control (break, continue, loop labels)          | ✅ Completed   |
-| 8   | Functions (basic) + Closures Intro                   | ✅ Completed   |
-| 9   | Functions (parameters, return)                       | ⏳ Pending     |
-| …   | …                                                    | …              |
+
+
+| Day | Status    | Notes                       |
+|-----|-----------|-----------------------------|
+| 1   | ✅ Done    | Basics covered              |
+| 2   | ✅ Done    | Strings & Integers          |
+| 3   | ✅ Done    | Arrays, Dictionaries, Sets  |
+| 4   | ✅ Done    | Loops                       |
+| 5   | ✅ Done    | Conditions                  |
+| 6   | ✅ Done    | Switch & Ternary            |
+| 7   | ✅ Done    | Functions                   |
+| 8   | ✅ Done    | Default + Throwing          |
+| 9   | ⏳ Pending | (App Sunday - Quote App)    |
+| 10  | ✅ Done    | Classes & Objects           |
+| 11  | ✅ Done    | Access Control + Static     |
+| 12  | ✅ Done    | Structs Review (Your Notes) |
+
 
 
 
