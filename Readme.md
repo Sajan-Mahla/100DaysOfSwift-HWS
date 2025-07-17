@@ -131,7 +131,7 @@ My ANSWER: for i in 1..<100{
     }
 _____________________________________________________________________________
 Sat-12-july-2025
-Q3 The challenge is this: write a function that accepts an integer from 1 through 10,000, and returns the integer square root of that number. That sounds easy, but there are some catches:
+Q4 The challenge is this: write a function that accepts an integer from 1 through 10,000, and returns the integer square root of that number. That sounds easy, but there are some catches:
 
 You can’t use Swift’s built-in sqrt() function or similar – you need to find the square root yourself.
 If the number is less than 1 or greater than 10,000 you should throw an “out of bounds” error.
@@ -184,7 +184,7 @@ do {
 
 ___________________________________________________________________________________
 Mon-14-july-2025
-Q4.Your input is this:
+Q5.Your input is this:
 
 let luckyNumbers = [7, 4, 38, 21, 16, 15, 12, 33, 31, 49]
 Your job is to:
@@ -217,7 +217,7 @@ for line in result {
 
 ___________________________________________________________________________________
  Wed-16-7-2025
- Q5. create a struct to store information about a car, including its model, number of seats, and current gear, then add a method to change gears up or down. Have a think about variables and access control: what data should be a variable rather than a constant, and what data should be exposed publicly? Should the gear-changing method validate its input somehow?
+ Q6. create a struct to store information about a car, including its model, number of seats, and current gear, then add a method to change gears up or down. Have a think about variables and access control: what data should be a variable rather than a constant, and what data should be exposed publicly? Should the gear-changing method validate its input somehow?
 
  MyAnswer: struct CarModel {
     enum Gear: Int {
@@ -244,4 +244,74 @@ ________________________________________________________________________________
 var myCar = CarModel(name: "Tesla", model: "Model S", seats: 5)
 print(myCar.currentGear)   // neutral
 
+___________________________________________________________________________________
+Thu 17-7-2025
+Q7. make a class hierarchy for animals, starting with Animal at the top, then Dog and Cat as subclasses, then Corgi and Poodle as subclasses of Dog, and Persian and Lion as subclasses of Cat.
+
+But there’s more:
+
+The Animal class should have a legs integer property that tracks how many legs the animal has.
+The Dog class should have a speak() method that prints a generic dog barking string, but each of the subclasses should print something slightly different.
+The Cat class should have a matching speak() method, again with each subclass printing something different.
+The Cat class should have an isTame Boolean property, provided using an initializer.
+
+ MyAnswer: class Animal {
+    var legs: Int
+
+    init(legs: Int) {
+        self.legs = legs
+    }
+}
+
+
+class Dog: Animal {
+    func speak() {
+        print("Generic dog bark!")
+    }
+
+    init() {
+        super.init(legs: 4)
+    }
+}
+
+class Corgi: Dog {
+    override func speak() {
+        print("Corgi goes: Yap yap!")
+    }
+}
+
+class Poodle: Dog {
+    override func speak() {
+        print("Poodle goes: Fancy bark!")
+    }
+}
+
+
+class Cat: Animal {
+    var isTame: Bool
+
+    init(legs: Int = 4, isTame: Bool) {
+        self.isTame = isTame
+        super.init(legs: legs)
+    }
+
+    func speak() {
+        print("Generic cat sound.")
+    }
+}
+
+class Persian: Cat {
+    override func speak() {
+        print("Persian goes: Purrrrr~")
+    }
+}
+
+class Lion: Cat {
+    override func speak() {
+        print("Lion roars: ROARRRR!")
+    }
+}
+
+
+TBH THIS TOOK 1 HOUR TO SOLVE 😭
 ___________________________________________________________________________________
