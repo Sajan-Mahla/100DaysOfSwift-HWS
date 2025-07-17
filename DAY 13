@@ -1,0 +1,96 @@
+//
+//  Day 13 Quiz Test.swift
+//  100 Days of Swift by Sajan Mahla
+//
+//  Created on 2025-07-17
+//
+
+import Foundation
+
+// MARK: - Day 13: Classes & Inheritance Quiz
+
+/*
+ Question 1:
+ What is the main difference between classes and structs in Swift?
+
+ a) Classes can have optional properties
+ b) Structs can be inherited
+ c) Classes support inheritance and reference types
+ d) Structs can override methods
+
+ ✅ Answer: c
+*/
+
+/*
+ Question 2:
+ What keyword do you use to override a method in a subclass?
+
+ a) change
+ b) extend
+ c) super
+ d) override
+
+ ✅ Answer: d
+*/
+
+/*
+ Question 3:
+ What will this code print?
+
+ class Animal {
+     func speak() {
+         print("Animal sound")
+     }
+ }
+
+ class Dog: Animal {
+     override func speak() {
+         print("Bark")
+     }
+ }
+
+ let d = Dog()
+ d.speak()
+
+ a) Animal sound
+ b) Bark
+ c) Error
+ d) Nothing
+
+ ✅ Answer: b
+*/
+
+/*
+ Question 4:
+ What is the purpose of `super.init()` in subclass initializers?
+
+ a) It deletes the parent class  
+ b) It initializes properties from the superclass  
+ c) It overrides a method  
+ d) It creates a new class  
+
+ ✅ Answer: b
+*/
+
+/*
+ Question 5:
+ What is the output of this code?
+
+ class Cat {
+     var isTame: Bool
+
+     init(isTame: Bool) {
+         self.isTame = isTame
+     }
+ }
+
+ let leo = Cat(isTame: false)
+ print(leo.isTame)
+
+ a) true
+ b) false
+ c) Cat
+ d) Error
+
+ ✅ Answer: b
+*/
