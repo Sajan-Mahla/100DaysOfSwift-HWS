@@ -315,3 +315,56 @@ class Lion: Cat {
 
 TBH THIS TOOK 1 HOUR TO SOLVE 😭
 ___________________________________________________________________________________
+Fri 18-7-2025
+Q7 Your challenge is this: make a protocol that describes a building, adding various properties and methods, then create two structs, House and Office, that conform to it. Your protocol should require the following:
+
+A property storing how many rooms it has.
+A property storing the cost as an integer (e.g. 500,000 for a building costing $500,000.)
+A property storing the name of the estate agent responsible for selling the building.
+A method for printing the sales summary of the building, describing what it is along with its other properties.
+
+
+
+
+MyAnswer: protocol building{
+    var rooms: Int { get }
+    var buildingCost: Int {get }
+    var agent: String {get }
+    
+    func buildingDescription() -> String
+        
+}
+
+extension building{
+    func buildingDescription() -> String{
+        return "This is my house and it has \(rooms) rooms and it costs a total of $\(buildingCost) and is made by \(agent)"
+    }
+}
+
+struct House: building{
+    var rooms: Int
+    var buildingCost: Int
+    var agent: String
+}
+
+struct office: building{
+    var rooms: Int
+    var buildingCost: Int
+    var agent: String
+}
+
+
+
+
+
+let myhouse = House(rooms: 4, buildingCost: 500000, agent: "SAMS BUILD")
+print(myhouse.buildingDescription())
+
+let myOffice = office(rooms: 50, buildingCost: 1000000, agent: "WE THE BUILDERS")
+print(myOffice.buildingDescription())
+___________________________________________________________________________________
+
+
+
+
+
