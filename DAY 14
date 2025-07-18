@@ -1,0 +1,18 @@
+DAY 14 Hacking with Swift
+
+## 🧪 Quiz: Protocols & Extensions
+
+1. What is the purpose of the `mutating` keyword in Swift structs?
+   - ✅ **c. Allows modification of properties in a method**
+
+2. What is a key use case of protocol extensions?
+   - ✅ **b. To provide default method implementations**
+
+3. Which of the following correctly declares a protocol with a method requirement?
+   - ✅ **a. protocol MyProtocol { func doSomething() }**
+
+4. What happens if a struct doesn’t override a method in the protocol extension?
+   - ✅ **(fun) It uses the default implementation from the extension.**
+
+5. Why would you use protocol extensions instead of just structs or classes?
+   - ✅ **c. To apply shared behavior across many types without inheritance**
