@@ -1,18 +1,29 @@
-DAY 14 Hacking with Swift
+✅ Day 14 – Protocols & Extensions: Quiz Log
+1. What keyword is used to define a protocol?
 
-## 🧪 Quiz: Protocols & Extensions
+a) class
+b) interface
+c) protocol ✅ (Your Answer)
 
-1. What is the purpose of the `mutating` keyword in Swift structs?
-   - ✅ **c. Allows modification of properties in a method**
+2. What must types do to conform to a protocol?
 
-2. What is a key use case of protocol extensions?
-   - ✅ **b. To provide default method implementations**
+a) Import it
+b) Implement all its requirements ✅ (Your Answer)
+c) Subclass it
 
-3. Which of the following correctly declares a protocol with a method requirement?
-   - ✅ **a. protocol MyProtocol { func doSomething() }**
+3. What does extension allow you to do?
 
-4. What happens if a struct doesn’t override a method in the protocol extension?
-   - ✅ **(fun) It uses the default implementation from the extension.**
+a) Add functionality to existing types ✅ (Your Answer)
+b) Create custom operators
+c) Inherit protocols
 
-5. Why would you use protocol extensions instead of just structs or classes?
-   - ✅ **c. To apply shared behavior across many types without inheritance**
+4. How do protocol extensions help?
+
+(Your Answer): "fuck let's dance" 😂🕺
+Clean Answer for GitHub: Protocol extensions let us provide default method implementations so conforming types don’t need to re-write the same code. Super useful for clean design!
+
+5. Why would you use a protocol extension?
+
+a) To create memory
+b) To enable inheritance
+c) To add shared functionality across conforming types ✅ (Your Answer)
