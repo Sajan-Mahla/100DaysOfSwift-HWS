@@ -1,0 +1,44 @@
+📘 100 Days of Swift – Day 15
+
+✅ Topic: Optionals – guard, nil coalescing, optional chaining, function failure handling
+📅 Date: July 19, 2025
+💯 Score: 10/10
+🔍 Day 14 Final Test – Q&A
+
+What does optional chaining allow you to do?
+✅ Answer: c) Call properties and methods on optionals safely
+Why use guard let in Swift?
+✅ Answer: a) Exit early if condition is not met
+How does nil coalescing (??) work?
+✅ Answer: b) Uses a default value if optional is nil
+What happens if you force unwrap a nil value?
+✅ Answer: c) Crash at runtime
+What’s the purpose of if let?
+✅ Answer: c) Safe way to unwrap optionals
+What’s the behavior of this line?
+number?.randomElement() ?? Int.random(in: 1...100)
+✅ Answer: b) Picks a random number if numbers is nil or empty
+What symbol is used for optional chaining?
+✅ Answer: c) ?
+What is the downside of force unwrapping?
+✅ Answer: c) Risky if value is nil
+In this function, what is the unwrapped value called?
+func BroskiGender(broksi: String?) {
+    guard let nogender = broksi else {
+        print("Broski is genderless")
+        return
+    }
+    print("BROSKI IS \(nogender) 😭😂")
+}
+BroskiGender(broksi: "GAY")
+✅ Answer: a) Broski
+If array is missing or empty, what does the below code do?
+func str(number: [Int]?) -> Int {
+    number?.randomElement() ?? Int.random(in: 1...100)
+}
+✅ Answer: b) Returns a number from 1 to 100
+
+✅ Verdict: Perfect Score!
+
+You’ve wrapped up optionals like a pro – guard, nil coalescing, chaining, and error-tolerant code in one shot!
+Let this serve as the official checkpoint and GitHub log of your Day 15 mastery.
