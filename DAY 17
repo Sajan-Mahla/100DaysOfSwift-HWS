@@ -1,0 +1,85 @@
+🧠 Day 17 – Swift Revision Test (Days 1–15)
+
+🗓️ Total Questions: 28 (2 from each day)
+📚 Coverage: 100 Days of Swift – Day 1 to Day 14
+👨‍💻 Format: Question + Answer
+
+✅ Day 1 – Variables and Constants
+Q: What’s the difference between let and var in Swift?
+A: let is used to declare constants (cannot change later), var is for variables (can be updated).
+Q: What happens if you try to change a value declared with let?
+A: It causes a compile-time error because constants cannot be reassigned.
+✅ Day 2 – Types, Strings, Multiline
+Q: Which operator is used to combine strings in Swift?
+A: The + operator.
+Q: How do you write a multiline string in Swift?
+A: Use triple double-quotes (""").
+✅ Day 3 – Arrays, Sets, Dictionaries, Enums
+Q: Which data structure guarantees uniqueness in Swift?
+A: Set.
+Q: What does this return?
+let scores = ["Math": 90, "CS": 100]
+scores["Physics", default: 0]
+A: 0
+✅ Day 4 – Type Annotations & Type Inference
+Q: What will be the type of let age = 18?
+A: Int (inferred automatically).
+Q: How to explicitly declare a variable height as Double with value 5.8?
+A: var height: Double = 5.8
+✅ Day 5 – Conditions, if/switch
+Q: What’s the correct syntax to check if score is greater than 80?
+A: if score > 80 { }
+Q: switch in Swift must be:
+A: Exhaustive – all possible cases must be handled or use default.
+✅ Day 6 – Loops (for, while, continue, break)
+Q: What does continue do inside a loop?
+A: Skips the current iteration and continues with the next one.
+Q: Which loop is best for checking until a condition is false?
+A: while loop.
+✅ Day 7 – Functions
+Q: How do you define a function in Swift?
+A: Using func keyword, e.g., func greet() { }
+Q: How do you return a value from a Swift function?
+A: Use -> to declare return type and return to return value.
+Example:
+func add(a: Int, b: Int) -> Int {
+    return a + b
+}
+✅ Day 8 – Parameters and Throwing Functions
+Q: What keyword makes a parameter name visible when calling?
+A: The external parameter name (default is same as internal unless _ used).
+Q: Which keyword is used for throwing errors in Swift?
+A: throw
+✅ Day 9 – Optionals
+Q: What does ? mean in var name: String?
+A: It means name is an optional – it may contain a String or nil.
+Q: Which is correct to safely unwrap an optional?
+A: Using if let, guard let, or optional chaining (name?.count).
+✅ Day 10 – Optional Chaining and Nil Coalescing
+Q: What does ?? mean in Swift?
+A: Nil coalescing operator – provides a default value if optional is nil.
+Q: What will user?.profile?.age do if user is nil?
+A: It returns nil without crashing (safe optional chaining).
+✅ Day 11 – Structs
+Q: How to declare a struct in Swift?
+A:
+struct Person {
+    var name: String
+}
+Q: Which keyword is required to modify properties inside a struct method?
+A: mutating
+✅ Day 12 – Initializers
+Q: What is an initializer in Swift?
+A: A special method (init) used to set up initial values for a struct or class.
+Q: What is the default behavior if no init is written in a struct?
+A: Swift automatically generates a memberwise initializer.
+✅ Day 13 – Access Control
+Q: What does private access mean in Swift?
+A: The property/method is accessible only inside the same file or type.
+Q: Which modifier allows global access?
+A: public or open (for frameworks/classes)
+✅ Day 14 – Static Properties and Methods
+Q: What does static mean in a struct?
+A: Belongs to the type itself, not an instance.
+Q: How do you call a static method named greet() in struct Person?
+A: Person.greet()
