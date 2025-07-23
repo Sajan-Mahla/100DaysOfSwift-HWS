@@ -1,0 +1,20 @@
+# 📅 Day 19 – Advanced SwiftUI Input Handling
+
+Today’s focus was on making SwiftUI forms smarter and more user-friendly by leveraging input control, currency formatting, and segmented UI components.
+
+---
+
+## 🔑 Concepts Learned
+
+### 🔹 `@FocusState`
+- Used to manage which field is currently active.
+- Helps in controlling keyboard navigation and focus programmatically.
+
+### 🔹 `pickerStyle(.segmented)`
+- Enhances Pickers to look and feel like tabs.
+- Ideal for simple option switching in a compact view.
+
+### 🔹 Currency Input Field
+```swift
+TextField("Amount", value: $checkAmount, format: .currency(code: Locale.current.currency?.identifier ?? "USD"))
+    .keyboardType(.decimalPad)
