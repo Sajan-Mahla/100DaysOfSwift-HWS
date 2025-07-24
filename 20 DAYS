@@ -1,0 +1,33 @@
+# WeSplit - Tip Splitter App 🧾🍽️
+
+An iOS app built with SwiftUI that allows users to quickly split a restaurant bill including tips among a group of people.
+
+## Features
+- Input total bill amount.
+- Select number of people (2-99).
+- Choose tip percentage (0%, 10%, 15%, 20%, 25%).
+- Real-time calculation of amount per person.
+- Clean currency formatting based on locale.
+- Segmented control for tip selection.
+- Form UI using SwiftUI best practices.
+- Light & Dark Mode support.
+- Dismiss keyboard with a "Done" button on the toolbar.
+
+
+## Tech Stack
+- SwiftUI
+- Xcode 15
+- iOS 17 SDK
+
+## What I Learned
+- State management using `@State`.
+- Data binding with Pickers & TextFields.
+- Currency formatting with `FormatStyle`.
+- Using `@FocusState` for keyboard management.
+- SwiftUI Forms & Section structures.
+- Building a minimal yet functional user input workflow.
+
+## Author
+Sajan Mahla – *On the road to Apple Park.*
+
+---
