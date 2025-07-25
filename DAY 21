@@ -1,0 +1,116 @@
+# 🌡️ TempMate — Temperature Converter App (SwiftUI)
+
+**TempMate** is a lightweight iOS application that allows users to convert temperature values between **Celsius, Fahrenheit, and Kelvin**. This project is built using **SwiftUI** and demonstrates state-driven UI updates, real-time data binding, and a clean UI architecture suitable for beginner-to-intermediate iOS developers.
+
+---
+
+## 🚀 Features
+- Input temperature in decimal values.
+- Select **From Unit** and **To Unit** (Celsius, Fahrenheit, Kelvin).
+- Accurate conversion logic with real-time result display.
+- Minimal, adaptive SwiftUI layout with segmented Pickers.
+- Input validation for handling invalid data entries.
+
+---
+
+## 🧑🏻‍💻 Tech Stack
+- **Swift 5**
+- **SwiftUI (State & Binding concepts)**
+- **Xcode 15+**
+
+---
+
+CODE:-
+
+---
+
+## 📝 Code Overview
+
+### ContentView.swift (Core View)
+```swift
+import SwiftUI
+
+struct ContentView: View {
+    @State private var inputTemperature = ""
+    @State private var fromUnit = "Celsius"
+    @State private var toUnit = "Fahrenheit"
+    @State private var result = ""
+
+    let temperatureUnits = ["Celsius", "Fahrenheit", "Kelvin"]
+
+    var body: some View {
+        VStack(spacing: 20) {
+            Text("TempMate")
+                .font(.largeTitle)
+                .bold()
+
+            TextField("Enter Temperature", text: $inputTemperature)
+                .keyboardType(.decimalPad)
+                .textFieldStyle(RoundedBorderTextFieldStyle())
+                .padding()
+
+            Picker("From", selection: $fromUnit) {
+                ForEach(temperatureUnits, id: \.self) {
+                    Text($0)
+                }
+            }
+            .pickerStyle(SegmentedPickerStyle())
+
+            Picker("To", selection: $toUnit) {
+                ForEach(temperatureUnits, id: \.self) {
+                    Text($0)
+                }
+            }
+            .pickerStyle(SegmentedPickerStyle())
+
+            Button("Convert") {
+                performConversion()
+            }
+            .font(.title2)
+            .padding()
+            .background(Color.blue)
+            .foregroundColor(.white)
+            .cornerRadius(10)
+
+            Text("Result: \(result)")
+                .font(.title3)
+                .padding()
+        }
+        .padding()
+    }
+
+    func performConversion() {
+        guard let inputValue = Double(inputTemperature) else {
+            result = "Invalid Input"
+            return
+        }
+
+        var celsiusValue: Double
+
+        if fromUnit == "Celsius" {
+            celsiusValue = inputValue
+        } else if fromUnit == "Fahrenheit" {
+            celsiusValue = (inputValue - 32) * 5 / 9
+        } else if fromUnit == "Kelvin" {
+            celsiusValue = inputValue - 273.15
+        } else {
+            result = "Invalid Unit"
+            return
+        }
+
+        var finalValue: Double
+
+        if toUnit == "Celsius" {
+            finalValue = celsiusValue
+        } else if toUnit == "Fahrenheit" {
+            finalValue = (celsiusValue * 9 / 5) + 32
+        } else if toUnit == "Kelvin" {
+            finalValue = celsiusValue + 273.15
+        } else {
+            result = "Invalid Unit"
+            return
+        }
+
+        result = String(format: "%.2f", finalValue)
+    }
+}
