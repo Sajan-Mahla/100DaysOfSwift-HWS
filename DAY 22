@@ -1,0 +1,17 @@
+DAY 22 todays learning:
+
+
+
+
+Guess the Flag: Introduction
+Start of a mini-game app to apply SwiftUI basics.
+Using stacks to arrange views
+Learned VStack, HStack, and ZStack for UI layouts.
+Colors and frames
+Applied custom colors and controlled view sizes with frames.
+Gradients
+Implemented all 4 gradients for Apple-like smooth backgrounds.
+Buttons and images
+Integrated interactive buttons and SF Symbols into UI.
+Showing alert messages
+Displayed alerts with custom actions using @State bindings.
