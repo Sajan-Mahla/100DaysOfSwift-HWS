@@ -1,0 +1,48 @@
+📱 GuessTheFlag – Learning Journal
+
+🗓️ Date: 28th July 2025
+🚀 App #6 Built – Day 24 Swift Journey
+🧠 What I Learned:
+✅ How to use @State for dynamic UI state management.
+✅ RadialGradient background styling to create Apple-level UI.
+✅ Used VStack, Spacer, and .padding() for structured layout.
+✅ Created a score-tracking mechanism using state and alerts.
+✅ Practiced Button actions with parameterized functions.
+✅ Built a dynamic list of countries using .shuffled() and correctAnswer = Int.random(...).
+✅ Displayed alert using .alert(...) with isPresented binding.
+🛠️ SwiftUI Techniques Used:
+Concept	Swift Feature Used
+State Management	@State properties
+UI Layout	VStack, Spacer, .padding, .frame
+Images + Styling	Image(...).clipShape(.capsule).shadow()
+Gradients	RadialGradient
+Alerts	.alert(isPresented:)
+Randomization	.shuffled() + Int.random(in: 0...2)
+⚙️ Key Code Snippets:
+@State private var countries = ["Estonia", "France", ...].shuffled()
+@State private var correctAnswer = Int.random(in: 0...2)
+
+Button {
+    flagTapped(number)
+} label: {
+    Image(countries[number])
+        .clipShape(.capsule)
+        .shadow(radius: 5)
+}
+💡 Insights / Takeaways:
+📌 @State variables update the UI automatically — no need for manual refresh.
+📌 SwiftUI alerts are super declarative — clean and readable.
+📌 Randomizing array for game logic is easy and powerful with .shuffled().
+📌 Clip shapes and shadows add polish with very little code.
+📌 Design and gameplay can evolve — this was a great template for future interactive apps.
+🔮 Future Improvements:
+ Add a Score Counter visible and updating after every question.
+ Add animations on correct/wrong flag taps.
+ Add high score tracking using @AppStorage or UserDefaults.
+ Add flag descriptions or facts to make it educational.
+ Refactor code into MVVM structure for scalability.
+📝 Final Thought:
+This game taught me the power of SwiftUI’s declarative UI + state-driven updates.
+Building logic + UI simultaneously = Faster Development.
+And I’m one step closer to Apple-level app skills.
+🏷️ Tags: SwiftUI, State Management, iOS Dev, HackingWithSwift, LearningApp6
