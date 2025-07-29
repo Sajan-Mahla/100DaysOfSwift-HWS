@@ -1,50 +1,46 @@
-# 🚀 100 Days of Swift – Hacking with Swift (HWS Edition)
+# 🚀 100 Days of Swift — Hacking with Swift (HWS Edition)
 
 Welcome to my personal journey through the **#100DaysOfSwiftUI** challenge by **Paul Hudson**.
 
-This repo is my **public commitment** to becoming a world-class iOS developer —  
-From **Faridkot to Cupertino**, one Swift file at a time.
+This repo isn’t just about learning Swift.  
+It’s a **public declaration** — from **Faridkot to Cupertino**, one Swift file at a time.
 
 ---
 
-## 🛠 Tech Stack
-
-- **Swift** – Core language  
-- **Xcode** – Primary development IDE  
-- **Git + GitHub** – Version control & daily progress tracking  
-- **Markdown** – Clean, readable documentation  
+## 🛠 Tech Stack in Use
+- **Swift** – Crafting the core foundation
+- **Xcode** – My primary battleground
+- **Git + GitHub** – Tracking every ounce of progress
+- **Markdown** – Documenting the legacy cleanly
 
 ---
 
 ## 🙏 Special Thanks
-
-- **Paul Hudson** – For building this incredible course and community ❤️  
-- **Everyone silently cheering me on** 🫶  
-- **Me** – For not giving up when it got tough 💪
+- **Paul Hudson** — The architect of this incredible journey ❤️  
+- **The Silent Supporters** — You know who you are 🫶  
+- **Me (Sajan Mahla)** — For staying in the ring when quitting was easier 💪
 
 ---
 
-## 📌 Why This Repo Matters
-
-This is more than just code.
-
-It’s **proof of discipline**.  
-It’s **my comeback arc**.  
-It’s a **countdown to Apple**.
+## 📌 Why This Repo Exists
+This isn’t just about code.
+It’s about:
+- **Discipline over Motivation**
+- **Building a Legacy, not just apps**
+- **Counting down to my Apple Offer**
 
 > _“We don’t do it in one day. We do it every day.”_
 
-📆 **Started on:** July 3, 2025  
-🎯 **Ends with:** A better version of me (and an Apple badge)  
-📍 _This README updates regularly — stay tuned._
+📆 **Started:** July 3, 2025  
+🎯 **Ends with:** A better me + an Apple Badge  
+📍 _This README evolves as I do — stay tuned._
 
 ---
 
-## ✅ Daily Progress Tracker
-
+## ✅ Daily Progress Tracker (Day 25 Update)
 | Day | Status | Notes |
 |-----|--------|-------|
-| 1   | ✅ Done | Basics covered |
+| 1   | ✅ Done | Swift Basics |
 | 2   | ✅ Done | Strings & Integers |
 | 3   | ✅ Done | Arrays, Dictionaries, Sets |
 | 4   | ✅ Done | Loops |
@@ -63,56 +59,59 @@ It’s a **countdown to Apple**.
 | 17  | ✅ Done | App Architecture Cleanup |
 | 18  | ✅ Done | MVVM Planning + Refactor |
 | 19  | ✅ Done | @FocusState, Currency Format, Picker Segments |
+| 20-25 | ✅ Done | App building wrap-ups, system design notes, consistency grind |
 
 ---
 
-## 🧠 Extension Skills Tracker
-
-*1 hour/day outside HWS – Focused on interview-level and real-world dev skills.*
-
+## 🧠 Extension Skills Tracker (Beyond Tutorials)
 | Skill Area | Topics Covered | Status | Notes |
 |------------|----------------|--------|-------|
-| Async Engineering | DispatchQueue, async/await, URLSession | ✅ Done | Day 6 completed |
-| UIKit | Views, constraints, view controllers | 🔜 Upcoming | After Quote App v2 |
-| Git + GitHub | Commits, branches, README | ✅ Done | Actively used |
-| Xcode Debugging | Breakpoints, logs, runtime analysis | ✅ Done | Covered in UIKit crash course |
-| App Architecture | MVC, MVVM | 🔜 Upcoming | Start after UIKit |
-| Networking | REST APIs, Codable | ✅ Done | Quote App uses live API |
-| Swift Packages | SwiftPM usage | 🔜 Upcoming | Needed for future apps |
-| Design Systems | HIG, Dark Mode, Fonts, Spacing | ✅ Done | Used in Quote App |
-| Firebase Basics | Auth, Firestore | 🔜 Upcoming | Planned for next build |
-| App Store Prep | Provisioning, TestFlight, upload | ✅ Done | Guide watched (July 9, 2025) |
+| Async Engineering | DispatchQueue, async/await, URLSession | ✅ Day 6 Done |
+| UIKit | Views, Constraints, View Controllers | 🔜 Upcoming |
+| Git + GitHub | Commits, Branches, README Docs | ✅ Actively Used |
+| Xcode Debugging | Breakpoints, Logs, Runtime Analysis | ✅ Covered |
+| App Architecture | MVC, MVVM | 🔜 Starts after UIKit |
+| Networking | REST APIs, Codable | ✅ Implemented |
+| Swift Packages | SwiftPM Usage | 🔜 Upcoming |
+| Design Systems | HIG, Dark Mode, Spacing | ✅ Applied |
+| Firebase Basics | Auth, Firestore | 🔜 Upcoming |
+| App Store Prep | Provisioning, TestFlight | ✅ Guide Watched |
 
 ---
 
-## 📱 Quote App – First App Built
+## 📱 Quote App – First Milestone Project
+> **Mission:** Craft a minimal, clean quote app with offline fallback.
 
-> **Goal:** Simple, elegant quote app with offline fallback & modern SwiftUI features.
-
-- Personalized greeting with Google or guest login
-- Light/Dark mode support
-- Quotes fetched from API (with local fallback)
+Core Features:
+- Personalized Greeting (Google/Guest Login)
+- Light/Dark Mode Toggle
+- API-based Quotes with Local Fallback
 - Buttons: UNDO, COPY, NEXT
-- Clean model renamed to `AppQuote` (for clarity)
+- Clean Model renamed to `AppQuote` (namespace clarity)
 
-🔜 **v2.0 will include:**
-- Apple ID Login
-- Categorized Quotes
-- UI improvements using animation & better state handling
-
----
-
-## 🏁 What's Next
-
-- 🚀 **1 app every Sunday** (52 total planned)
-- 🧠 **DSA + Interview Prep**: LeetCode, iOS concepts, system design
-- 🔁 Master both **UIKit** and **SwiftUI**
-- 🎯 **Target:** Apple or top-tier tech roles (USA/CANADA/EUROPE)
-- 💌 **Ultimate Dream:** Apple offer letter by **June 16, 2026** – my mom’s birthday
+🔜 **v2.0 Features Planned:**
+- Apple ID Login Integration
+- Categorized Quote Filters
+- Enhanced UI/UX with Animations
 
 ---
 
-**Follow the journey. Clone it. Fork it. Or just get inspired.**  
-This isn’t just a repo — it’s **legacy in progress.** 🍏
+## 🏁 What’s Next?
+- 🚀 Build 1 polished app every Sunday (52 Total)
+- 🧠 DSA & Interview Prep for Apple-level mastery
+- 🔁 Dual mastery of UIKit & SwiftUI (No compromises)
+- 🎯 Goal: Crack Apple or equivalent by Feb 2026
+- 🎁 Ultimate Dream: Apple offer on **June 16, 2026** — Mom’s birthday
 
-> _“Nobody believed we’d make it. That’s why we will.”_
+---
+
+## 🌟 Day 25 Reflection:
+> _“Nobody believed we’d make it. That’s why we will.”_  
+Day 25 is not an end. It’s a checkpoint.  
+The real grind?  
+It starts every single morning.
+
+---
+
+**Fork it. Clone it. Get inspired.  
+This isn't a portfolio — it's a legacy in progress.** 🍏
