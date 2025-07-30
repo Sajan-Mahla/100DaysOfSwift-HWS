@@ -1,0 +1,108 @@
+📅 Day 26 – Views, Modifiers, and Composition (SwiftUI)
+
+1. Views and Modifiers: Introduction
+
+In SwiftUI, Views describe what you want to show on screen, while Modifiers are methods that return a new view with adjustments applied (like changing colors, font, padding, etc.). Views are value types (structs), and modifiers are composable, allowing a declarative UI structure.
+
+2. Why does SwiftUI use Structs for Views?
+
+SwiftUI uses structs for views because:
+
+Structs are lightweight and immutable.
+Swift’s value semantics ensure changes create a new copy, which fits SwiftUI's diffing engine for efficient UI updates.
+Structs allow SwiftUI to optimize rendering with minimal overhead.
+3. What is behind the main SwiftUI View?
+
+Every SwiftUI view you write (like Text, VStack, Button) is a struct conforming to the View protocol.
+Behind the scenes, SwiftUI composes these into a View Tree and uses a diffing algorithm to efficiently update only the changed parts of the UI when state changes.
+
+4. Why Modifier Order Matters
+
+Modifiers are applied in the order they are written. Each modifier returns a new view with that modification applied.
+Example:
+
+Text("Hello")
+    .padding()
+    .background(Color.red)
+vs.
+
+Text("Hello")
+    .background(Color.red)
+    .padding()
+The visual result will differ, because .padding() can either include or exclude the background depending on order.
+
+5. Why does SwiftUI use “some View” for its View Type?
+
+SwiftUI returns opaque return types (some View) because:
+
+The actual return type of a view body is extremely complex and deeply nested.
+some View hides the complexity but guarantees the compiler that a single consistent view type will be returned.
+This enables compile-time safety and performance optimizations.
+6. Conditional Modifiers
+
+Conditional modifiers apply styling or behavior based on a condition.
+Example:
+
+Text("Hello")
+    .foregroundColor(isActive ? .green : .gray)
+Or using .if pattern:
+
+Text("Hello")
+    .if(isActive) { view in
+        view.bold()
+    }
+7. Environment Modifiers
+
+Environment modifiers apply changes to a view and all of its child views.
+Example:
+
+VStack {
+    Text("One")
+    Text("Two")
+}
+.font(.headline) // Applies to all child Text views
+They allow global styling at parent level.
+
+8. Views as Properties
+
+You can define views as properties inside a struct to reduce duplication.
+Example:
+
+var header: some View {
+    Text("Welcome")
+        .font(.largeTitle)
+        .padding()
+}
+Using properties improves readability, reusability, and keeps body cleaner.
+
+9. View Composition
+
+View composition is the practice of building complex UIs by combining small, reusable view components.
+Instead of writing everything in one body, you break them into subviews (child components).
+This increases modularity, reusability, and maintainability of code.
+
+10. Custom Modifiers
+
+Custom Modifiers are reusable view modifiers created by conforming to the ViewModifier protocol.
+Example:
+
+struct TitleStyle: ViewModifier {
+    func body(content: Content) -> some View {
+        content
+            .font(.largeTitle)
+            .foregroundColor(.blue)
+    }
+}
+
+// Usage:
+Text("Hello").modifier(TitleStyle())
+Or via extension for easier syntax:
+
+extension View {
+    func titleStyle() -> some View {
+        self.modifier(TitleStyle())
+    }
+}
+✅ Summary
+
+Day 26 was all about Modifiers and View Composition. You learned how SwiftUI builds UIs by combining lightweight structs, how modifiers chain and affect views, and how composition patterns help create clean, reusable, and scalable UI code.
