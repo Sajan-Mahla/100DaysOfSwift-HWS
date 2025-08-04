@@ -123,17 +123,17 @@ This isn’t just about code. It’s about:
 ---
 
 ## 🔜 Upcoming Plans  
-- 🚀 Build 1 polished app every Sunday (52 Total)  
+- 🚀 Build atleast 1 polished app every week (52 Total)  
 - 🧠 DSA & Interview Prep for Apple-level mastery  
 - 🔁 Dual mastery of UIKit & SwiftUI (No compromises)  
-- 🎯 Goal: Crack Apple or equivalent by Feb 2026  
+- 🎯 Goal: Crack Apple by Feb 2026  
 - 🎁 Ultimate Dream: Apple offer on June 16, 2026 — Mom’s birthday  
 
 ---
 
-## 🌟 Day 30 Reflection  
+## 🌟 Day 31 Reflection  
 > “Nobody believed we’d make it. That’s why we will.”  
-Day 30 is not an end. It’s a checkpoint.  
+Day 31 is not an end. It’s a checkpoint.  
 The real grind?  
 It starts every single morning.  
 
