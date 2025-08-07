@@ -81,46 +81,7 @@ This isn’t just about code. It’s about:
 
 ---
 
-## 📱 Projects Done So Far  
 
-### 1️⃣ Quote App — First Milestone  
-- Personalized Greeting (Google/Guest Login)  
-- Light/Dark Mode Toggle  
-- API-based Quotes with Local Fallback  
-- UNDO, COPY, NEXT buttons  
-- Clean Model (AppQuote)
-
-### 2️⃣ Weather App — API & SwiftUI Combo  
-- Real-time Weather Fetch (OpenWeatherMap API)  
-- Light/Dark Mode  
-- Clean MVVM structure  
-- API Key Handling & Error States
-
-### 3️⃣ BetterRest — CoreML Based Sleep Calculator  
-- Uses trained **SleepCalculator.mlmodel**  
-- Inputs: Wake Time, Sleep Amount, Coffee Intake  
-- Calculates Ideal Bedtime  
-- MLModel integrated with SwiftUI Form & Alerts
-
-### 4️⃣ CalcMate - a calculator for evrything
-- simple arithmatic problems
-- bmi calcultor
-- date or age calculator
-
-### 5️⃣ WeSpilt - Split Bills as easy as App's
-- Spiltter from 2 to 99 peoples
-- in Your own currency
-- simple but useful Ui
-
-### 6️⃣ GuessTheFlag - im jealous that why this app dont exist when i was a kid
-- simple flag game for kid's knowledge
-- good haptic response
-- score meter also baby
-
-### 7️⃣ tempSm - Temperature converter from hot lady to cool guy
-- convert temperature in all 3 units THAT'S IT
-
----
 
 ## 🔜 Upcoming Plans  
 - 🚀 Build atleast 1 polished app every week (52 Total)  
