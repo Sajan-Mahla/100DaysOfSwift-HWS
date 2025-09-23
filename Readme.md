@@ -7,6 +7,7 @@ From Faridkot to Cupertino — One Swift File at a Time 🍏
 - **Swift** — Crafting the core foundation  
 - **Xcode** — My primary battleground  
 - **CoreML** — Machine Learning, because “Apple-Level” means AI-ready  
+- **MapKit** — Mapping the world, one annotation at a time 🌍  
 - **Git + GitHub** — Tracking every ounce of progress  
 - **Markdown** — Documenting the legacy cleanly  
 
@@ -34,33 +35,23 @@ This isn’t just about code. It’s about:
 
 ---
 
-## ✅ Daily Progress Tracker (Day 30 Update)  
+## ✅ Daily Progress Tracker (Day 81 Update)  
 
 | Day   | Status  | Notes  |
 |-------|---------|--------|
-| 1     | ✅ Done | Swift Basics |
-| 2     | ✅ Done | Strings & Integers |
-| 3     | ✅ Done | Arrays, Dictionaries, Sets |
-| 4     | ✅ Done | Loops |
-| 5     | ✅ Done | Conditions |
-| 6     | ✅ Done | Switch & Ternary |
-| 7     | ✅ Done | Functions |
-| 8     | ✅ Done | Default Params + Throwing |
-| 9     | ✅ Done | 📱 App Sunday: Quote App v1.0 |
-| 10    | ✅ Done | Classes & Objects |
-| 11    | ✅ Done | Access Control + Static |
-| 12    | ✅ Done | Structs Deep Dive |
-| 13    | ✅ Done | Optionals, Chaining, Nil-Coalescing |
-| 14    | ✅ Done | 📘 Full Revision & Test |
-| 15    | ✅ Done | Async Recap + Error Handling |
-| 16    | ✅ Done | App Polish + GitHub Commits |
-| 17    | ✅ Done | App Architecture Cleanup |
-| 18    | ✅ Done | MVVM Planning + Refactor |
-| 19    | ✅ Done | @FocusState, Currency Format, Picker Segments |
-| 20-25 | ✅ Done | App building wrap-ups, system design notes |
-| 26    | ✅ Done | App #6 — Weather App built |
-| 27-29 | ✅ Done | Async Engineering + Extensions Focus |
-| 30    | ✅ Done | App #7 — BetterRest (CoreML Integrated) |
+| 1–30  | ✅ Done | Basics → CoreML App #7 |
+| 31    | ✅ Done | Reflection checkpoint |
+| 32–40 | ✅ Done | Optionals, Enums, Closures deep dive |
+| 41    | ✅ Done | App #8 — Unit Converter |
+| 42–50 | ✅ Done | Structs vs Classes, Protocols, Generics |
+| 51    | ✅ Done | App #9 — Dice Roller (Animations) |
+| 52–60 | ✅ Done | SwiftUI advanced states, bindings |
+| 61    | ✅ Done | App #10 — Expense Tracker |
+| 62–70 | ✅ Done | Combine intro, Networking revision |
+| 71    | ✅ Done | 🎂 Birthday Grind + HospItal App milestone |
+| 72–79 | ✅ Done | App #11–19 |
+| 80    | ✅ Done | 🎉 JavaScript Full Course Completed |
+| 81    | ✅ Done | MapKit: User Location + Editable Annotations |
 
 ---
 
@@ -68,37 +59,39 @@ This isn’t just about code. It’s about:
 
 | Skill Area         | Topics Covered                                    | Status       | Notes                |
 |--------------------|---------------------------------------------------|--------------|---------------------|
-| Async Engineering   | DispatchQueue, async/await, URLSession            | ✅ Day 6 Done |
-| UIKit               | Views, Constraints, View Controllers              | 🔜 Upcoming   |
-| Git + GitHub        | Commits, Branches, README Docs                    | ✅ Active     |
-| Xcode Debugging     | Breakpoints, Logs, Runtime Analysis               | ✅ Covered    |
-| App Architecture    | MVC, MVVM                                         | 🔜 After UIKit|
-| Networking          | REST APIs, Codable                               | ✅ Implemented |
-| Swift Packages      | SwiftPM Usage                                     | 🔜 Upcoming   |
-| Design Systems      | HIG, Dark Mode, Spacing                           | ✅ Applied    |
-| Firebase Basics     | Auth, Firestore                                   | 🔜 Upcoming   |
-| App Store Prep      | Provisioning, TestFlight                         | ✅ Guide Watched |
+| Async Engineering  | DispatchQueue, async/await, URLSession            | ✅ Mastered   |
+| UIKit              | Views, Constraints, View Controllers              | 🔜 Upcoming   |
+| Git + GitHub       | Commits, Branches, README Docs                    | ✅ Active     |
+| Xcode Debugging    | Breakpoints, Logs, Runtime Analysis               | ✅ Covered    |
+| App Architecture   | MVC, MVVM                                         | ✅ Applied    |
+| Networking         | REST APIs, Codable                               | ✅ Implemented |
+| Swift Packages     | SwiftPM Usage                                     | 🔜 Upcoming   |
+| MapKit             | User Location, Annotations                        | ✅ Day 81 Done|
+| Design Systems     | HIG, Dark Mode, Spacing                           | ✅ Applied    |
+| Firebase Basics    | Auth, Firestore                                   | 🔜 Upcoming   |
+| App Store Prep     | Provisioning, TestFlight                         | ✅ Guide Watched |
 
 ---
-
-
 
 ## 🔜 Upcoming Plans  
 - 🚀 Build atleast 1 polished app every week (52 Total)  
 - 🧠 DSA & Interview Prep for Apple-level mastery  
 - 🔁 Dual mastery of UIKit & SwiftUI (No compromises)  
+- 🌍 Deep dive into MapKit + CoreLocation features  
 - 🎯 Goal: Crack Apple by Feb 2026  
 - 🎁 Ultimate Dream: Apple offer on June 16, 2026 — Mom’s birthday  
 
 ---
 
-## 🌟 Day 31 Reflection  
-> “Nobody believed we’d make it. That’s why we will.”  
-Day 31 is not an end. It’s a checkpoint.  
-The real grind?  
-It starts every single morning.  
+## 🌟 Day 81 Reflection  
+> “From zero to MapKit — from confusion to clarity.  
+JS? Conquered. Swift? Leveled up. The mission? Still burning.”  
+
+Day 81 is not an end.  
+It’s proof that discipline > doubt.  
+The next checkpoint? **Day 100**. Cupertino, we’re coming.  
 
 Fork it. Clone it. Get inspired.  
-This isn't a portfolio — it's a **legacy in progress.** 🍏
+This isn't a portfolio — it's a **legacy in progress.** 🍏  
 
 ---
