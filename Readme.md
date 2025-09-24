@@ -52,6 +52,7 @@ This isn’t just about code. It’s about:
 | 72–79 | ✅ Done | App #11–19 |
 | 80    | ✅ Done | 🎉 JavaScript Full Course Completed |
 | 81    | ✅ Done | MapKit: User Location + Editable Annotations |
+| 82    | ✅ Done | Taking and sorting data of WIKIPEDIA for my app |
 
 ---
 
