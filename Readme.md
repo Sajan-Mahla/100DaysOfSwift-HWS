@@ -53,6 +53,7 @@ This isn’t just about code. It’s about:
 | 80    | ✅ Done | 🎉 JavaScript Full Course Completed |
 | 81    | ✅ Done | MapKit: User Location + Editable Annotations |
 | 82    | ✅ Done | Taking and sorting data of WIKIPEDIA for my app |
+| 83    | ✅ Done | MVVM Architecture & FaceID Authentication  |
 
 ---
 
