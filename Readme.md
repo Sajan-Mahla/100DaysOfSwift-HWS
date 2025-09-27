@@ -54,6 +54,7 @@ This isn’t just about code. It’s about:
 | 81    | ✅ Done | MapKit: User Location + Editable Annotations |
 | 82    | ✅ Done | Taking and sorting data of WIKIPEDIA for my app |
 | 83    | ✅ Done | MVVM Architecture & FaceID Authentication  |
+| 85    | ✅ Done | Basics of ACCESSIBILTY's  |
 
 ---
 
