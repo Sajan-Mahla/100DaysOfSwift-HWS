@@ -56,6 +56,7 @@ This isn’t just about code. It’s about:
 | 83    | ✅ Done | MVVM Architecture & FaceID Authentication  |
 | 85    | ✅ Done | Basics of ACCESSIBILTY's |
 | 87    | ✅ Done | Project no.15 done from HWS Series |
+| 89    | ✅ Done | Challenge app |
 
 ---
 
