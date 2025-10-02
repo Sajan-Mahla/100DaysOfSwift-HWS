@@ -41,7 +41,7 @@ This isn’t just about code. It’s about:
 |-------|---------|--------|
 | 1–30  | ✅ Done | Basics → CoreML App #7 |
 | 31    | ✅ Done | Reflection checkpoint |
-| 32–40 | ✅ Done | Optionals, Enums, Closures deep dive |
+| 32–40 | ✅ Done | 💀, Enums, Closures deep dive |
 | 41    | ✅ Done | App #8 — Unit Converter |
 | 42–50 | ✅ Done | Structs vs Classes, Protocols, Generics |
 | 51    | ✅ Done | App #9 — Dice Roller (Animations) |
@@ -57,6 +57,7 @@ This isn’t just about code. It’s about:
 | 85    | ✅ Done | Basics of ACCESSIBILTY's |
 | 87    | ✅ Done | Project no.15 done from HWS Series |
 | 89    | ✅ Done | Challenge app |
+| 90    | ✅ Done | 3 months NON-STOP |
 
 ---
 
