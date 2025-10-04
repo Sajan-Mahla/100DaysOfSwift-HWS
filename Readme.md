@@ -58,6 +58,7 @@ This isn’t just about code. It’s about:
 | 87    | ✅ Done | Project no.15 done from HWS Series |
 | 89    | ✅ Done | Challenge app |
 | 90    | ✅ Done | 3 months NON-STOP |
+| 92    | ✅ Done | RESULT & Context menu in SWIFT |
 
 ---
 
