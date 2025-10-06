@@ -59,7 +59,7 @@ This isn’t just about code. It’s about:
 | 89    | ✅ Done | Challenge app |
 | 90    | ✅ Done | 3 months NON-STOP |
 | 92    | ✅ Done | RESULT & Context menu in SWIFT |
-| 93    | ✅ Done | bro college is started. fuck |
+| 93    | ✅ Done | bro college is started |
 
 ---
 
