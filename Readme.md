@@ -35,7 +35,7 @@ This isn’t just about code. It’s about:
 
 ---
 
-## ✅ Daily Progress Tracker (Day 95 Update)  
+## ✅ Daily Progress Tracker (Day 96 Update)  
 
 | Day   | Status  | Notes  |
 |-------|---------|--------|
@@ -92,11 +92,11 @@ This isn’t just about code. It’s about:
 
 ---
 
-## 🌟 Day 81 Reflection  
+## 🌟 Day 96 Reflection  
 > “From zero to MapKit — from confusion to clarity.  
 JS? Conquered. Swift? Leveled up. The mission? Still burning.”  
 
-Day 81 is not an end.  
+Day 96 is not an end.  
 It’s proof that discipline > doubt.  
 The next checkpoint? **Day 100**. Cupertino, we’re coming.  
 
