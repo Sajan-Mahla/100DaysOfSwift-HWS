@@ -60,6 +60,7 @@ This isn’t just about code. It’s about:
 | 90    | ✅ Done | 3 months NON-STOP |
 | 92    | ✅ Done | RESULT & Context menu in SWIFT |
 | 94    | ✅ Done | bro college is started |
+| 96    | ✅ Done | Working with QR's in SwiftUI |
 
 ---
 
