@@ -35,7 +35,7 @@ This isn’t just about code. It’s about:
 
 ---
 
-## ✅ Daily Progress Tracker (Day 96 Update)  
+## ✅ Daily Progress Tracker (Day 97 Update)  
 
 | Day   | Status  | Notes  |
 |-------|---------|--------|
@@ -92,7 +92,7 @@ This isn’t just about code. It’s about:
 
 ---
 
-## 🌟 Day 96 Reflection  
+## 🌟 Day 97 Reflection  
 > “From zero to MapKit — from confusion to clarity.  
 JS? Conquered. Swift? Leveled up. The mission? Still burning.”  
 
