@@ -35,7 +35,7 @@ This isn’t just about code. It’s about:
 
 ---
 
-## ✅ Daily Progress Tracker (Day 97 Update)  
+## ✅ Daily Progress Tracker (Day 98 Update)  
 
 | Day   | Status  | Notes  |
 |-------|---------|--------|
@@ -61,6 +61,7 @@ This isn’t just about code. It’s about:
 | 92    | ✅ Done | RESULT & Context menu in SWIFT |
 | 94    | ✅ Done | bro college is started |
 | 96    | ✅ Done | Working with QR's in SwiftUI |
+| 98    | ✅ Done | Just wrap-up of the previous app |
 
 ---
 
@@ -92,7 +93,7 @@ This isn’t just about code. It’s about:
 
 ---
 
-## 🌟 Day 97 Reflection  
+## 🌟 Day 98 Reflection  
 > “From zero to MapKit — from confusion to clarity.  
 JS? Conquered. Swift? Leveled up. The mission? Still burning.”  
 
