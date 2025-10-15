@@ -64,6 +64,7 @@ This isn’t just about code. It’s about:
 | 98    | ✅ Done | Just wrap-up of the previous app |
 | 99    | ✅ Done | Started new app which is gestures EXCLUSIVE |
 | 101    | ✅ Done | 3 Digits days started |
+| 103    | ✅ Done | Swipe,Counter,allowHitTesting |
 
 ---
 
