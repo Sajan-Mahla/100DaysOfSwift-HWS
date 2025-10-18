@@ -35,7 +35,7 @@ This isn’t just about code. It’s about:
 
 ---
 
-## ✅ Daily Progress Tracker (Day 105 Update)  
+## ✅ Daily Progress Tracker (Day 106 Update)  
 
 | Day   | Status  | Notes  |
 |-------|---------|--------|
@@ -65,6 +65,7 @@ This isn’t just about code. It’s about:
 | 99    | ✅ Done | Started new app which is gestures EXCLUSIVE |
 | 101    | ✅ Done | 3 Digits days started |
 | 103    | ✅ Done | Swipe,Counter,allowHitTesting |
+| 106    | ✅ Done | Layout and geometry |
 
 ---
 
@@ -96,9 +97,8 @@ This isn’t just about code. It’s about:
 
 ---
 
-## 🌟 Day 105 Reflection  
-> “From zero to MapKit — from confusion to clarity.  
-JS? Conquered. Swift? Leveled up. The mission? Still burning.”  
+## 🌟 Day 106 Reflection  
+> “Even ONE commit COUNTS .”  
 
 Day 105 is not an end.  
 It’s proof that discipline > doubt.  
