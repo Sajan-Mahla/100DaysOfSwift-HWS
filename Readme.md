@@ -35,7 +35,7 @@ This isn’t just about code. It’s about:
 
 ---
 
-## ✅ Daily Progress Tracker (Day 106 Update)  
+## ✅ Daily Progress Tracker (Day 108 Update)  
 
 | Day   | Status  | Notes  |
 |-------|---------|--------|
@@ -66,6 +66,7 @@ This isn’t just about code. It’s about:
 | 101    | ✅ Done | 3 Digits days started |
 | 103    | ✅ Done | Swipe,Counter,allowHitTesting |
 | 106    | ✅ Done | Layout and geometry |
+| 108    | ✅ Done | ScrollView and all |
 
 ---
 
@@ -97,10 +98,10 @@ This isn’t just about code. It’s about:
 
 ---
 
-## 🌟 Day 106 Reflection  
+## 🌟 Day 108 Reflection  
 > “Even ONE commit COUNTS .”  
 
-Day 105 is not an end.  
+Day 108 is not an end.  
 It’s proof that discipline > doubt.  
 The next checkpoint? **Day 200**. Cupertino, we’re coming.  
 
