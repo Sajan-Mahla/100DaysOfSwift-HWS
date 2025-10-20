@@ -1,0 +1,5 @@
+today i did learnt:
+-Resizing images to fit the screen using GeometryReader
+-Understanding frames and coordinates inside GeometryReader
+-ScrollView effects using GeometryReader
+-ScrollView effects using visualEffect() and scrollTargetBehavior()
