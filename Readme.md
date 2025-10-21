@@ -1,4 +1,4 @@
-# 🚀 100 Days of Swift — Hacking with Swift (HWS Edition)  
+# 🚀 Journey till apple  — Hacking with Swift (HWS Edition)  
 From Faridkot to Cupertino — One Swift File at a Time 🍏  
 
 ---
@@ -35,7 +35,7 @@ This isn’t just about code. It’s about:
 
 ---
 
-## ✅ Daily Progress Tracker (Day 108 Update)  
+## ✅ Daily Progress Tracker (Day 109 Update)  
 
 | Day   | Status  | Notes  |
 |-------|---------|--------|
@@ -98,10 +98,10 @@ This isn’t just about code. It’s about:
 
 ---
 
-## 🌟 Day 108 Reflection  
+## 🌟 Day 109 Reflection  
 > “Even ONE commit COUNTS .”  
 
-Day 108 is not an end.  
+Day 109 is not an end.  
 It’s proof that discipline > doubt.  
 The next checkpoint? **Day 200**. Cupertino, we’re coming.  
 
