@@ -1,0 +1,8 @@
+so today i did start my LAST project for this course, and this is IPAD exclusive.
+here's the checklist or list of the things i did today:
+-SnowSeeker: Introduction
+-Working with two side by side views in SwiftUI
+-Using alert() and sheet() with optionals
+-Using groups as transparent layout containers
+-Making a SwiftUI view searchable
+-Sharing @Observable objects through SwiftUI's environment
