@@ -1,0 +1,39 @@
+so today was a busy day, but NEVER will be the 0 day, so here i did learn about COMBINE.
+after that i did my first code in PLAYGROUND.
+here's the code:
+______________________________________________________________________________________________________________________________________________________________________________________________________________________
+import Combine
+import Foundation
+
+// 1. Create a Publisher (like a YouTube channel)
+let numberPublisher = [1, 2, 3, 4, 5].publisher
+
+// 2. Subscribe to it (like clicking Subscribe button)
+let subscription = numberPublisher.sink { number in
+    print("I got a number: \(number) ")
+}
+
+// Output will be:
+// I got a number: 1
+// I got a number: 2
+// I got a number: 3
+// I got a number: 4
+// I got a number: 5
+
+
+// ---- Another Example with Timer ----
+
+// A timer that sends a message every 1 second
+let timer = Timer.publish(every: 1.0, on: .main, in: .common)
+    .autoconnect()
+
+// Subscribe to the timer
+let timerSubscription = timer.sink { time in
+    print("Tick! Current time: \(time)")
+}
+
+// Keep the playground running to see timer ticks
+import PlaygroundSupport
+PlaygroundPage.current.needsIndefiniteExecution = true
+
+______________________________________________________________________________________________________________________________________________________________________________________________________________________
