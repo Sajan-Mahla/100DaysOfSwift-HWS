@@ -35,7 +35,7 @@ This isn’t just about code. It’s about:
 
 ---
 
-## ✅ Daily Progress Tracker (Day 117 Update)  
+## ✅ Daily Progress Tracker (Day 120 Update)  
 
 | Day   | Status  | Notes  |
 |-------|---------|--------|
@@ -72,6 +72,7 @@ This isn’t just about code. It’s about:
 | 114    | ✅ Done | Colorify it 🚀 |
 | 116    | ✅ Done | HACKING WITH SWIFT course done |
 | 118    | ✅ Done | Getting into COMBINE |
+| 120    | ✅ Done | 4 months into the GAME |
 
 ---
 
@@ -99,14 +100,14 @@ This isn’t just about code. It’s about:
 - 🔁 Dual mastery of UIKit & SwiftUI (No compromises)  
 - 🌍 Deep dive into MapKit + CoreLocation features  
 - 🎯 Goal: Crack Apple by Feb 2026  
-- 🎁 Ultimate Dream: Apple offer on June 16, 2026 — Mom’s birthday  
+- 🎁 Ultimate Dream: Apple offer on — Mom’s birthday  
 
 ---
 
-## 🌟 Day 119 Reflection  
-> “How much, like how much time she would ghost me?, SUCCESS.”  
+## 🌟 Day 120 Reflection  
+> “The sun is Setting, hope soo WE too...”  
 
-Day 119 is not an end.  
+Day 120 is not an end.  
 It’s proof that discipline > doubt.  
 The next checkpoint? **Day 200**. Cupertino, we’re coming.  
 
