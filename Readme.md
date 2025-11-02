@@ -35,7 +35,7 @@ This isn’t just about code. It’s about:
 
 ---
 
-## ✅ Daily Progress Tracker (Day 120 Update)  
+## ✅ Daily Progress Tracker (Day 121 Update)  
 
 | Day   | Status  | Notes  |
 |-------|---------|--------|
@@ -104,10 +104,10 @@ This isn’t just about code. It’s about:
 
 ---
 
-## 🌟 Day 120 Reflection  
-> “The sun is Setting, hope soo WE too...”  
+## 🌟 Day 121 Reflection  
+> “Living my best, the history is REST”  
 
-Day 120 is not an end.  
+Day 121 is not an end.  
 It’s proof that discipline > doubt.  
 The next checkpoint? **Day 200**. Cupertino, we’re coming.  
 
