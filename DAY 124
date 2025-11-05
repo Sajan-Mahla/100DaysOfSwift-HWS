@@ -1,0 +1,19 @@
+so here's the SNIPPET of today's CODE- 
+import Combine
+
+enum NetworkError: Error {
+    case offline
+}
+
+let successPublisher = [10, 20, 30].publisher
+let failPublisher = Fail<Int, NetworkError>(error: .offline)
+
+let cancellable = successPublisher
+    .setFailureType(to: NetworkError.self) // unify error types
+    .merge(with: failPublisher)
+    .sink(receiveCompletion: { print("Completion: \($0)") },
+          receiveValue: { print("Value: \($0)") })
+
+
+
+LIKE NOW THIS SUNDAY IM THINKING SOMEWHAT FULL-STACK...
