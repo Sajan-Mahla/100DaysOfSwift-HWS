@@ -35,7 +35,7 @@ This isn’t just about code. It’s about:
 
 ---
 
-## ✅ Daily Progress Tracker (Day 125 Update)  
+## ✅ Daily Progress Tracker (Day 126 Update)  
 
 | Day   | Status  | Notes  |
 |-------|---------|--------|
@@ -106,10 +106,10 @@ This isn’t just about code. It’s about:
 
 ---
 
-## 🌟 Day 125 Reflection  
-> “The boy once running after success, now count it as his lowest”  
+## 🌟 Day 126 Reflection  
+> “The boy once running after success, now count it as his lowest ℠ ”  
 
-Day 125 is not an end.  
+Day 126 is not an end.  
 It’s proof that discipline > doubt.  
 The next checkpoint? **Day 200**. Cupertino, we’re coming.  
 
