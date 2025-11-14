@@ -1,0 +1,58 @@
+so today i did swift after a long time, coz i made a COMBINE exclusive weather appp.
+here's the UI CODE:
+
+
+//
+//  ContentView.swift
+//  Weather Combine
+//
+//  Created by SAJAN  on 14/11/25.
+//
+
+import SwiftUI
+
+struct ContentView: View {
+    @StateObject private var vm = WeatherViewModel()
+
+    var body: some View {
+        VStack(spacing: 20) {
+            
+            // Search Bar
+            TextField("Search City...", text: $vm.searchText)
+                .padding()
+                .background(Color(.systemGray6))
+                .cornerRadius(12)
+                .padding(.horizontal)
+
+            // Weather Output
+            if let weather = vm.weather?.current_weather {
+                VStack(spacing: 10) {
+                    Text("🌍 Weather")
+                        .font(.title2)
+                        .bold()
+
+                    Text("Temperature: \(weather.temperature)°C")
+                        .font(.title3)
+
+                    Text("Wind Speed: \(weather.windspeed) km/h")
+                    Text("Wind Direction: \(weather.winddirection)°")
+                }
+                .padding()
+                .frame(maxWidth: .infinity)
+                .background(Color(.secondarySystemBackground))
+                .cornerRadius(16)
+                .padding(.horizontal)
+            } else {
+                Text("Search any city to fetch the weather 🌤️")
+                    .foregroundColor(.gray)
+                    .padding(.top, 40)
+            }
+
+            Spacer()
+        }
+    }
+}
+
+#Preview {
+    ContentView()
+}
