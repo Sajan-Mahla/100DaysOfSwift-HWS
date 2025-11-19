@@ -79,6 +79,7 @@ This isn’t just about code. It’s about:
 | 129    | ✅ Done | StorreKit and @Environment |
 | 133    | ✅ Done | SWIFT + COMBINE Magic |
 | 136    | ✅ Done | DSA is killing OR got killed |
+| 138    | ✅ Done | Reusable Combine network layer (NetworkManager) |
 
 ---
 
@@ -110,10 +111,10 @@ This isn’t just about code. It’s about:
 
 ---
 
-## 🌟 Day 137 Reflection  
+## 🌟 Day 138 Reflection  
 > “The boy once running after success, now count it as his lowest ℠ ”  
 
-Day 137 is not an end.  
+Day 138 is not an end.  
 It’s proof that discipline > doubt.  
 The next checkpoint? **Day 200**. Cupertino, we’re coming.  
 
