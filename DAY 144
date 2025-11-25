@@ -1,0 +1,102 @@
+learning, POP yes PROTOCOL - ORIENTED PROGRAMMING.
+
+wanna cheatshett:
+
+
+🍎 PROTOCOL-ORIENTED PROGRAMMING — THE ULTIMATE CHEATSHEET
+✅ 1. What is a Protocol?
+A blueprint of methods, properties, and requirements.
+protocol Movable {
+    var speed: Int { get }
+    func move()
+}
+✅ 2. Protocol Conformance
+struct Car: Movable {
+    let speed = 100
+    func move() { print("Car moving at \(speed)") }
+}
+✅ 3. Protocol Extensions (POP’s Superpower)
+Give default implementations to protocols.
+extension Movable {
+    func move() {
+        print("Moving at \(speed)")
+    }
+}
+Any conforming type gets this for free.
+✅ 4. POP vs OOP (Why POP is better in Swift)
+OOP (Class Inheritance)	POP (Protocols)
+Single inheritance only	Mix unlimited protocols
+Heavy & opinionated	Lightweight & flexible
+Base class bloat	Small modular pieces
+Runtime dispatch	Compile-time safe
+Mutates state	Encourages immutability
+Apple engineers prefer POP for frameworks like SwiftUI, Combine, and Foundation.
+✅ 5. Protocol Composition
+Combine multiple protocols:
+protocol Runnable { func run() }
+protocol Jumpable { func jump() }
+
+func train(athlete: Runnable & Jumpable) {
+    athlete.run()
+    athlete.jump()
+}
+✅ 6. Associated Types (Advanced POP)
+Used when a protocol needs a generic placeholder.
+protocol DataSource {
+    associatedtype Item
+    func getItems() -> [Item]
+}
+Then implement:
+struct IntSource: DataSource {
+    func getItems() -> [Int] { [1,2,3] }
+}
+✅ 7. Protocols + Generics = GOD MODE
+func printItems<T: DataSource>(_ source: T) {
+    print(source.getItems())
+}
+Works for ANY type matching the protocol ✔
+✅ 8. Self Requirements
+Ensures functions return the same type.
+protocol Duplicateable {
+    func duplicate() -> Self
+}
+Used by SwiftUI a LOT.
+✅ 9. Mutating Requirements
+Needed for value types (structs):
+protocol Counter {
+    mutating func increment()
+}
+✅ 10. Static Requirements
+Protocols can demand static members:
+protocol Identifiable {
+    static var idPrefix: String { get }
+}
+✅ 11. POP Real-World Example (Apple Style)
+Reusable Networking Layer
+protocol Requestable {
+    associatedtype Model: Decodable
+    var url: URL { get }
+}
+
+extension Requestable {
+    func fetch() async throws -> Model {
+        let (data, _) = try await URLSession.shared.data(from: url)
+        return try JSONDecoder().decode(Model.self, from: data)
+    }
+}
+Then every API call = 5 lines 🚀
+struct UserRequest: Requestable {
+    typealias Model = User
+    let url = URL(string: "https://api.github.com/users")!
+}
+✅ 12. POP in SwiftUI & Combine (Important)
+SwiftUI views rely on protocols, not classes.
+Examples:
+View, Identifiable, ObservableObject, Publisher
+Everything POP.
+🧠 MEMORY HOOK (Remember POP in 5 seconds)
+Protocols describe
+Extensions provide
+Structs conform
+
+POP = Clean + Flexible + Fast + Apple-style architecture
