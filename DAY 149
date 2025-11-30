@@ -1,0 +1,54 @@
+so today i've did all KEYPATH,COMBINE,SWIFTUI.
+code:
+
+import SwiftUI
+import Combine
+
+class UserModel: ObservableObject {
+    @Published var name: String
+    @Published var age: Int
+    
+    init(name: String, age: Int) {
+        self.name = name
+        self.age = age
+    }
+}
+
+class UserVM: ObservableObject {
+    @Published var displayText: String = ""
+    
+    private var cancellables = Set<AnyCancellable>()
+    
+    init(model: UserModel) {
+        
+        model.publisher(for: \.name)         // KeyPath
+            .combineLatest(model.publisher(for: \.age))
+            .map { name, age in
+                "User: \(name), Age: \(age)"
+            }
+            .assign(to: &$displayText)
+    }
+}
+
+struct ContentView: View {
+    @StateObject private var model = UserModel(name: "Sajan", age: 18)
+    @StateObject private var vm: UserVM
+    
+    init() {
+        let m = UserModel(name: "Sajan", age: 18)
+        _model = StateObject(wrappedValue: m)
+        _vm = StateObject(wrappedValue: UserVM(model: m))
+    }
+    
+    var body: some View {
+        VStack(spacing: 18) {
+            Text(vm.displayText).font(.title)
+            
+            TextField("Name", text: $model.name)
+                .textFieldStyle(RoundedBorderTextFieldStyle())
+            
+            Stepper("Age: \(model.age)", value: $model.age)
+        }
+        .padding()
+    }
+}
