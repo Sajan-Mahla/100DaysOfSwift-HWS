@@ -35,7 +35,7 @@ This isn’t just about code. It’s about:
 
 ---
 
-## ✅ Daily Progress Tracker (Day 157 Update)  
+## ✅ Daily Progress Tracker (Day 158 Update)  
 
 | Day   | Status  | Notes  |
 |-------|---------|--------|
@@ -86,6 +86,7 @@ This isn’t just about code. It’s about:
 | 148    | ✅ Done | KEYPATH |
 | 150    | ✅ Done | 5 months, WHAT 💀|
 | 152    | ✅ Done | algoRYTHMS|
+| 158    | ✅ Done | DSA basics --> Medium|
 
 ---
 
@@ -117,10 +118,10 @@ This isn’t just about code. It’s about:
 
 ---
 
-## 🌟 Day 157 Reflection  
+## 🌟 Day 158 Reflection  
 > “DO GOOD ℠ ”  
 
-Day 157 is not an end.  
+Day 158 is not an end.  
 It’s proof that discipline > doubt.  
 The next checkpoint? **Day 200**. Cupertino, we’re coming.  
 
