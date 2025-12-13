@@ -35,7 +35,7 @@ This isn’t just about code. It’s about:
 
 ---
 
-## ✅ Daily Progress Tracker (Day 161 Update)  
+## ✅ Daily Progress Tracker (Day 162 Update)  
 
 | Day   | Status  | Notes  |
 |-------|---------|--------|
@@ -74,8 +74,8 @@ This isn’t just about code. It’s about:
 | 118    | ✅ Done | Getting into COMBINE |
 | 120    | ✅ Done | 4 months into the GAME |
 | 122    | ✅ Done | Combine is getting in HAND |
-| 125    | ✅ Done | First chain in COMBINE|
-| 127    | ✅ Done | First BACKEND in SWIFT|
+| 125    | ✅ Done | First chain in COMBINE |
+| 127    | ✅ Done | First BACKEND in SWIFT |
 | 129    | ✅ Done | StorreKit and @Environment |
 | 133    | ✅ Done | SWIFT + COMBINE Magic |
 | 136    | ✅ Done | DSA is killing OR got killed |
@@ -84,9 +84,10 @@ This isn’t just about code. It’s about:
 | 144    | ✅ Done | Protocol-Oriented Programming |
 | 146    | ✅ Done | ASCII values |
 | 148    | ✅ Done | KEYPATH |
-| 150    | ✅ Done | 5 months, WHAT 💀|
-| 152    | ✅ Done | algoRYTHMS|
-| 158    | ✅ Done | DSA basics --> Medium|
+| 150    | ✅ Done | 5 months, WHAT 💀 |
+| 152    | ✅ Done | algoRYTHMS |
+| 158    | ✅ Done | DSA basics --> Medium |
+| 162    | ✅ Done | Leetcode |
 
 ---
 
@@ -118,10 +119,10 @@ This isn’t just about code. It’s about:
 
 ---
 
-## 🌟 Day 161 Reflection  
+## 🌟 Day 162 Reflection  
 > “DO GOOD ℠ ”  
 
-Day 161 is not an end.  
+Day 162 is not an end.  
 It’s proof that discipline > doubt.  
 The next checkpoint? **Day 200**. Cupertino, we’re coming.  
 
