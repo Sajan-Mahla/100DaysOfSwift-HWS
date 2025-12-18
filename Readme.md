@@ -35,7 +35,7 @@ This isn’t just about code. It’s about:
 
 ---
 
-## ✅ Daily Progress Tracker (Day 166 Update)  
+## ✅ Daily Progress Tracker (Day 167 Update)  
 
 | Day   | Status  | Notes  |
 |-------|---------|--------|
@@ -88,7 +88,7 @@ This isn’t just about code. It’s about:
 | 152    | ✅ Done | algoRYTHMS |
 | 158    | ✅ Done | DSA basics --> Medium |
 | 162    | ✅ Done | Leetcode |
-| 158    | ✅ Done | some binary|
+| 168    | ✅ Done | some binary|
 
 ---
 
@@ -120,10 +120,10 @@ This isn’t just about code. It’s about:
 
 ---
 
-## 🌟 Day 166 Reflection  
-> “DO GOOD ℠ ”  
+## 🌟 Day 167 Reflection  
+> “Learn to be YOURSELF ℠ ”  
 
-Day 166 is not an end.  
+Day 167 is not an end.  
 It’s proof that discipline > doubt.  
 The next checkpoint? **Day 200**. Cupertino, we’re coming.  
 
