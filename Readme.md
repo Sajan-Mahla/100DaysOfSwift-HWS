@@ -91,6 +91,7 @@ This isn’t just about code. It’s about:
 | 168    | ✅ Done | some binary|
 | 180    | ✅ Done | 6 MONTHS- without a  doubt |
 | 182    | ✅ Done | dsa - DSA - |) $ @ |
+| 184    | ✅ Done | Dijkstra’s Algorithm, Bellman-Ford Algorithm, Floyd Warshall Algorithm |
 
 ---
 
@@ -122,10 +123,10 @@ This isn’t just about code. It’s about:
 
 ---
 
-## 🌟 Day 183 Reflection  
+## 🌟 Day 184 Reflection  
 > “LOVE? which bird is this ? ℠ ”  
 
-Day 183 is not an end.  
+Day 184 is not an end.  
 It’s proof that discipline > doubt.  
 The next checkpoint? **Day 200**. Cupertino, we’re coming.  
 
