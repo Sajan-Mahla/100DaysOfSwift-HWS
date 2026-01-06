@@ -35,7 +35,7 @@ This isn’t just about code. It’s about:
 
 ---
 
-## ✅ Daily Progress Tracker (Day 185 Update)  
+## ✅ Daily Progress Tracker (Day 186 Update)  
 
 | Day   | Status  | Notes  |
 |-------|---------|--------|
@@ -92,6 +92,7 @@ This isn’t just about code. It’s about:
 | 180    | ✅ Done | 6 MONTHS- without a  doubt |
 | 182    | ✅ Done | dsa - DSA - |) $ @ |
 | 184    | ✅ Done | Dijkstra’s Algorithm, Bellman-Ford Algorithm, Floyd Warshall Algorithm |
+| 186    | ✅ Done | DSA done FOR NOW 😭 |
 
 ---
 
@@ -123,10 +124,10 @@ This isn’t just about code. It’s about:
 
 ---
 
-## 🌟 Day 185 Reflection  
+## 🌟 Day 186 Reflection  
 > “LOVE? which bird is this ? ℠ ”  
 
-Day 185 is not an end.  
+Day 186 is not an end.  
 It’s proof that discipline > doubt.  
 The next checkpoint? **Day 200**. Cupertino, we’re coming.  
 
