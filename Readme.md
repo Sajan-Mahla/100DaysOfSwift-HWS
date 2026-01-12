@@ -35,7 +35,7 @@ This isn’t just about code. It’s about:
 
 ---
 
-## ✅ Daily Progress Tracker (Day 191 Update)  
+## ✅ Daily Progress Tracker (Day 192 Update)  
 
 | Day   | Status  | Notes  |
 |-------|---------|--------|
@@ -95,6 +95,7 @@ This isn’t just about code. It’s about:
 | 186    | ✅ Done | DSA done FOR NOW 😭 |
 | 188    | ✅ Done | TOPOLOGIES |
 | 190    | ✅ Done | Backend- woooo |
+| 192    | ✅ Done | LINUX-UNIX-BASH 😎 |
 
 
 
@@ -128,10 +129,10 @@ This isn’t just about code. It’s about:
 
 ---
 
-## 🌟 Day 191 Reflection  
+## 🌟 Day 192 Reflection  
 > “LOVE? which bird is this ? ℠ ”  
 
-Day 191 is not an end.  
+Day 192 is not an end.  
 It’s proof that discipline > doubt.  
 The next checkpoint? **Day 200**. Cupertino, we’re coming.  
 
