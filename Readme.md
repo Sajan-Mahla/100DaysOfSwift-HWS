@@ -35,7 +35,7 @@ This isn’t just about code. It’s about:
 
 ---
 
-## ✅ Daily Progress Tracker (Day 195 Update)  
+## ✅ Daily Progress Tracker (Day 196 Update)  
 
 | Day   | Status  | Notes  |
 |-------|---------|--------|
@@ -97,6 +97,8 @@ This isn’t just about code. It’s about:
 | 190    | ✅ Done | Backend- woooo |
 | 192    | ✅ Done | LINUX-UNIX-BASH 😎 |
 | 194    | ✅ Done | Learned about some DEADLOCK etc. 😎 |
+| 196    | ✅ Done | Even though CPU has it's schedule  |
+
 
 
 
@@ -128,12 +130,13 @@ This isn’t just about code. It’s about:
 - 🎯 Goal: Crack Apple by Feb 2026  
 - 🎁 Ultimate Dream: Apple offer on — Mom’s birthday  
 
+
 ---
 
-## 🌟 Day 195 Reflection  
+## 🌟 Day 196 Reflection  
 > “LOVE? which bird is this ? ℠ ”  
 
-Day 195 is not an end.  
+Day 196 is not an end.  
 It’s proof that discipline > doubt.  
 The next checkpoint? **Day 200**. Cupertino, we’re coming.  
 
