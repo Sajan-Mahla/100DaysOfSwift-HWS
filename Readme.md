@@ -98,6 +98,7 @@ This isn’t just about code. It’s about:
 | 192    | ✅ Done | LINUX-UNIX-BASH 😎 |
 | 194    | ✅ Done | Learned about some DEADLOCK etc. 😎 |
 | 196    | ✅ Done | Even though CPU has it's schedule  |
+| 198    | ✅ Done | today i did some SQL INJECTION 💀  |
 
 
 
@@ -133,10 +134,10 @@ This isn’t just about code. It’s about:
 
 ---
 
-## 🌟 Day 197 Reflection  
+## 🌟 Day 198 Reflection  
 > “LOVE? which bird is this ? ℠ ”  
 
-Day 197 is not an end.  
+Day 198 is not an end.  
 It’s proof that discipline > doubt.  
 The next checkpoint? **Day 200**. Cupertino, we’re coming.  
 
