@@ -35,7 +35,7 @@ This isn’t just about code. It’s about:
 
 ---
 
-## ✅ Daily Progress Tracker (Day 207 Update)  
+## ✅ Daily Progress Tracker (Day 208 Update)  
 
 | Day   | Status  | Notes  |
 |-------|---------|--------|
@@ -102,6 +102,8 @@ This isn’t just about code. It’s about:
 | 200    | ✅ Done | wait what we are now 200 official  |
 | 202    | ✅ Done | Big things are coming |
 | 204    | ✅ Done | SSC is on the way|
+| 206    | ✅ Done | still DSA|
+| 208    | ✅ Done | Small progresses |
 
 
 
@@ -136,10 +138,10 @@ This isn’t just about code. It’s about:
 
 ---
 
-## 🌟 Day 207 Reflection  
+## 🌟 Day 208 Reflection  
 > “LOVE? which bird is this ? ℠ ”  
 
-Day 207 is not an end.  
+Day 208 is not an end.  
 It’s proof that discipline > doubt.  
 The next checkpoint? **Day 200**. Cupertino, we’re coming.  
 
