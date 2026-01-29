@@ -35,7 +35,7 @@ This isn’t just about code. It’s about:
 
 ---
 
-## ✅ Daily Progress Tracker (Day 208 Update)  
+## ✅ Daily Progress Tracker (Day 209 Update)  
 
 | Day   | Status  | Notes  |
 |-------|---------|--------|
@@ -138,10 +138,10 @@ This isn’t just about code. It’s about:
 
 ---
 
-## 🌟 Day 208 Reflection  
+## 🌟 Day 209 Reflection  
 > “LOVE? which bird is this ? ℠ ”  
 
-Day 208 is not an end.  
+Day 209 is not an end.  
 It’s proof that discipline > doubt.  
 The next checkpoint? **Day 200**. Cupertino, we’re coming.  
 
