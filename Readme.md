@@ -35,7 +35,7 @@ This isn’t just about code. It’s about:
 
 ---
 
-## ✅ Daily Progress Tracker (Day 209 Update)  
+## ✅ Daily Progress Tracker (Day 210 Update)  
 
 | Day   | Status  | Notes  |
 |-------|---------|--------|
@@ -104,6 +104,7 @@ This isn’t just about code. It’s about:
 | 204    | ✅ Done | SSC is on the way|
 | 206    | ✅ Done | still DSA|
 | 208    | ✅ Done | Small progresses |
+| 210    | ✅ Done | Say no more, 7 months down |
 
 
 
