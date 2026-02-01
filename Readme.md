@@ -35,7 +35,7 @@ This isn’t just about code. It’s about:
 
 ---
 
-## ✅ Daily Progress Tracker (Day 211 Update)  
+## ✅ Daily Progress Tracker (Day 212 Update)  
 
 | Day   | Status  | Notes  |
 |-------|---------|--------|
@@ -105,6 +105,7 @@ This isn’t just about code. It’s about:
 | 206    | ✅ Done | still DSA|
 | 208    | ✅ Done | Small progresses |
 | 210    | ✅ Done | Say no more, 7 months down |
+| 212    | ✅ Done | RealityKit IYKYK |
 
 
 
@@ -139,10 +140,10 @@ This isn’t just about code. It’s about:
 
 ---
 
-## 🌟 Day 211 Reflection  
+## 🌟 Day 212 Reflection  
 > “LOVE? which bird is this ? ℠ ”  
 
-Day 211 is not an end.  
+Day 212 is not an end.  
 It’s proof that discipline > doubt.  
 The next checkpoint? **Day 200**. Cupertino, we’re coming.  
 
