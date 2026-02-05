@@ -106,6 +106,8 @@ This isn’t just about code. It’s about:
 | 208    | ✅ Done | Small progresses |
 | 210    | ✅ Done | Say no more, 7 months down |
 | 212    | ✅ Done | RealityKit IYKYK |
+| 216    | ✅ Done | Testing my basics|
+
 
 
 
@@ -140,10 +142,10 @@ This isn’t just about code. It’s about:
 
 ---
 
-## 🌟 Day 215 Reflection  
+## 🌟 Day 216 Reflection  
 > “LOVE? which bird is this ? ℠ ”  
 
-Day 215 is not an end.  
+Day 216 is not an end.  
 It’s proof that discipline > doubt.  
 The next checkpoint? **Day 200**. Cupertino, we’re coming.  
 
