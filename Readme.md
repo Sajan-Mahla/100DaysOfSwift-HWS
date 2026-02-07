@@ -35,7 +35,7 @@ This isn’t just about code. It’s about:
 
 ---
 
-## ✅ Daily Progress Tracker (Day 217 Update)  
+## ✅ Daily Progress Tracker (Day 218 Update)  
 
 | Day   | Status  | Notes  |
 |-------|---------|--------|
@@ -107,6 +107,7 @@ This isn’t just about code. It’s about:
 | 210    | ✅ Done | Say no more, 7 months down |
 | 212    | ✅ Done | RealityKit IYKYK |
 | 216    | ✅ Done | Testing my basics|
+| 218    | ✅ Done | Frame does the works|
 
 
 
@@ -142,10 +143,10 @@ This isn’t just about code. It’s about:
 
 ---
 
-## 🌟 Day 217 Reflection  
+## 🌟 Day 218 Reflection  
 > “LOVE? which bird is this ? ℠ ”  
 
-Day 217 is not an end.  
+Day 218 is not an end.  
 It’s proof that discipline > doubt.  
 The next checkpoint? **Day 200**. Cupertino, we’re coming.  
 
