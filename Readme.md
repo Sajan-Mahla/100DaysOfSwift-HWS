@@ -35,7 +35,7 @@ This isn’t just about code. It’s about:
 
 ---
 
-## ✅ Daily Progress Tracker (Day 235 Update)  
+## ✅ Daily Progress Tracker (Day 236 Update)  
 
 | Day   | Status  | Notes  |
 |-------|---------|--------|
@@ -145,10 +145,10 @@ This isn’t just about code. It’s about:
 
 ---
 
-## 🌟 Day 235 Reflection  
+## 🌟 Day 236 Reflection  
 > “LOVE? which bird is this ? ℠ ”  
 
-Day 235 is not an end.  
+Day 236 is not an end.  
 It’s proof that discipline > doubt.  
 The next checkpoint? **Day 200**. Cupertino, we’re coming.  
 
